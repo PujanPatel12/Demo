@@ -57,28 +57,59 @@ public class NewGoalController extends MainController {
         // int studentid = Studentcombobox.getSelectionModel().getSelectedIndex() +1;
         int studentid = StudentChoiceBox.getSelectionModel().getSelectedIndex() + 1;
         int weapons = weapon.getSelectionModel().getSelectedIndex() + 1;
-        String sql = "INSERT INTO GOAL(studentID,weaponID,goalName,dateEntered,dateCompleted,goalDescrption) values(?,?,?,?,?,?)";
+        Date comp;
+
+        if(datecompleted.getValue() != null) {
+
+            String sql = "INSERT INTO GOAL(studentID,weaponID,goalName,dateEntered,dateCompleted,goalDescrption) values(?,?,?,?,?,?)";
 
 
-        try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
+            try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
 
-            preparedStatement.setInt(1, studentid);
-            preparedStatement.setInt(2, weapons);
-            preparedStatement.setString(3, goalName.getText());
-            preparedStatement.setDate(4, Date.valueOf(dateentered.getValue()));
-            preparedStatement.setDate(5, Date.valueOf(datecompleted.getValue()));
-            preparedStatement.setString(6, goaldes.getText());
-            preparedStatement.execute();
-            preparedStatement.close();
-            Alert alert = new Alert(Alert.AlertType.INFORMATION);
-            alert.setTitle("Added new Goal");
-            alert.setHeaderText("Added new Goal");
-            alert.setContentText("Successfully Added new Goal for Student : " + studentid);
-            alert.showAndWait();
+                preparedStatement.setInt(1, studentid);
+                preparedStatement.setInt(2, weapons);
+                preparedStatement.setString(3, goalName.getText());
+                preparedStatement.setDate(4, Date.valueOf(dateentered.getValue()));
+                preparedStatement.setDate(5, Date.valueOf(datecompleted.getValue()));
+                preparedStatement.setString(6, goaldes.getText());
+                preparedStatement.execute();
+                preparedStatement.close();
+                Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                alert.setTitle("Added new Goal");
+                alert.setHeaderText("Added new Goal");
+                alert.setContentText("Successfully Added new Goal for Student : " + studentid);
+                alert.showAndWait();
+
+
+            }
+        }
+
+        if(datecompleted.getValue() == null){
+            String sql = "INSERT INTO GOAL(studentID,weaponID,goalName,dateEntered,goalDescrption) values(?,?,?,?,?)";
+
+
+            try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
+
+                preparedStatement.setInt(1, studentid);
+                preparedStatement.setInt(2, weapons);
+                preparedStatement.setString(3, goalName.getText());
+                preparedStatement.setDate(4, Date.valueOf(dateentered.getValue()));
+                preparedStatement.setString(5, goaldes.getText());
+                preparedStatement.execute();
+                preparedStatement.close();
+                Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                alert.setTitle("Added new Goal");
+                alert.setHeaderText("Added new Goal");
+                alert.setContentText("Successfully Added new Goal for Student : " + studentid);
+                alert.showAndWait();
+
+
+            }
+
         }
 
 
-        connection.close();
+
     }
 
 

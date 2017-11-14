@@ -58,18 +58,39 @@ public class GoalListController extends MainController {
 
        Goal goal = (Goal) goaltableview.getSelectionModel().getSelectedItem();
        int goalid = goaltableview.getSelectionModel().getSelectedIndex()+1;
-       if(goal !=null){
-           FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("UpdateGoal.fxml"));
-           Parent root4 = fxmlLoader.load();
-           UpdateGoalController updateGoalController = fxmlLoader.getController();
-           updateGoalController.datecompleted.setValue(goal.getDateCompleted().toLocalDate());
-           updateGoalController.dateentered.setValue(goal.getDateEntered().toLocalDate());
-           updateGoalController.goaldes.setText(goal.getGoalDescrption());
-           updateGoalController.goalName.setText(goal.getGoalName());
-           updateGoalController.studentidtextfield.setText(String.valueOf(goal.getStudentID()));
-           updateGoalController.weapon.setValue(goal.getWeaponName());
-           updateGoalController.goalidtext.setText(String.valueOf(goalid));
-           createStage(root4, actionEvent);
+
+       if(goal.getDateCompleted() != null) {
+           if (goal != null) {
+               FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("UpdateGoal.fxml"));
+               Parent root4 = fxmlLoader.load();
+               UpdateGoalController updateGoalController = fxmlLoader.getController();
+               updateGoalController.datecompleted.setValue(goal.getDateCompleted().toLocalDate());
+               updateGoalController.dateentered.setValue(goal.getDateEntered().toLocalDate());
+               updateGoalController.goaldes.setText(goal.getGoalDescrption());
+               updateGoalController.goalName.setText(goal.getGoalName());
+               updateGoalController.studentidtextfield.setText(String.valueOf(goal.getStudentID()));
+               updateGoalController.weapon.setValue(goal.getWeaponName());
+               updateGoalController.goalidtext.setText(String.valueOf(goalid));
+               createStage(root4, actionEvent);
+
+           }
+       }
+
+       if(goal.getDateCompleted() == null){
+           if (goal != null) {
+               FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("UpdateGoal.fxml"));
+               Parent root4 = fxmlLoader.load();
+               UpdateGoalController updateGoalController = fxmlLoader.getController();
+               //updateGoalController.datecompleted.setValue(goal.getDateCompleted().toLocalDate());
+               updateGoalController.dateentered.setValue(goal.getDateEntered().toLocalDate());
+               updateGoalController.goaldes.setText(goal.getGoalDescrption());
+               updateGoalController.goalName.setText(goal.getGoalName());
+               updateGoalController.studentidtextfield.setText(String.valueOf(goal.getStudentID()));
+               updateGoalController.weapon.setValue(goal.getWeaponName());
+               updateGoalController.goalidtext.setText(String.valueOf(goalid));
+               createStage(root4, actionEvent);
+
+           }
 
        }
 

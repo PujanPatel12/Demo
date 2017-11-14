@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StudentListController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #247f9e;" VBox.vgrow="ALWAYS">
+         <children>
+            <TabPane layoutX="28.0" layoutY="140.0" prefHeight="613.0" prefWidth="1224.0" style="-fx-background-color: #6698FF;" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab style="-fx-background-color: #34aad1;" text="Student List">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #247f9e;">
+                           <children>
+                              <TableView fx:id="studenttable" layoutX="-3.0" layoutY="26.0" prefHeight="507.0" prefWidth="959.0">
+                                <columns>
+                                    <TableColumn fx:id="studentIDcol" prefWidth="73.0" text="ID " />
+                                  <TableColumn fx:id="lastnamecol" prefWidth="93.0" text="Last Name" />
+                                    <TableColumn fx:id="firstnamecol" prefWidth="92.0" text="First Name" />
+                                    <TableColumn fx:id="DOBcol" minWidth="6.0" prefWidth="69.0" text="DOB" />
+                                  <TableColumn fx:id="sexcol" prefWidth="36.0" text="Sex" />
+                                    <TableColumn fx:id="Addresscol" prefWidth="152.0" text="Address" />
+                                    <TableColumn fx:id="zipcodecol" prefWidth="59.0" text="Zipcode" />
+                                    <TableColumn fx:id="statecol" prefWidth="60.0" text="State" />
+                                    <TableColumn fx:id="weaponcol" prefWidth="60.0" text="Country" />
+                                    <TableColumn fx:id="phonenumbercol" prefWidth="98.0" text="Phone Number" />
+                                    <TableColumn fx:id="studentstatuscol" prefWidth="53.0" text="Status" />
+                                    <TableColumn fx:id="communicationmedium" prefWidth="113.0" text="Communication" />
+                                    <TableColumn fx:id="studentnotes" prefWidth="73.0" text="Notes" />
+                                </columns>
+                              </TableView>
+                              <Button layoutX="980.0" layoutY="110.0" mnemonicParsing="false" onAction="#ManageNewStudent" prefHeight="48.0" prefWidth="224.0" style="-fx-background-color: #52D017;" text="Create New Student">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Button>
+                              <Button layoutX="980.0" layoutY="165.0" mnemonicParsing="false" onAction="#updatedatebuttonPressed" prefHeight="48.0" prefWidth="224.0" style="-fx-background-color: #ffd700;" text="Update Student">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="Delete" layoutX="980.0" layoutY="220.0" mnemonicParsing="false" onAction="#deleteButtonPressed" prefHeight="48.0" prefWidth="224.0" style="-fx-background-color: #dc143c;" text="Delete Student">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Button>
+                              <Text fill="WHITE" layoutX="989.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student List" textAlignment="CENTER" wrappingWidth="206.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Text>
+                              <Button layoutX="980.0" layoutY="485.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="224.0" style="-fx-background-color: white;" text="Main Menu">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Button>
+                              <Button layoutX="980.0" layoutY="430.0" mnemonicParsing="false" onAction="#goStudentMenu" prefHeight="48.0" prefWidth="224.0" style="-fx-background-color: #a8ccdf;" text="Student Menu">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+              </tabs>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </TabPane>
+            <ImageView fitHeight="139.0" fitWidth="672.0" layoutX="610.0" layoutY="-1.0">
+               <image>
+                  <Image url="@../New%20folder/header.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="139.0" fitWidth="931.0">
+               <image>
+                  <Image url="@../New%20folder/header.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="155.0" layoutY="14.0" prefHeight="48.0" prefWidth="697.0" text="Round Rock Fencing Club" textAlignment="JUSTIFY" textFill="#c1e5f1">
+               <font>
+                  <Font name="System Bold" size="58.0" />
+               </font>
+            </Label>
+            <Label layoutX="158.0" layoutY="81.0" prefHeight="48.0" prefWidth="697.0" text="Don't try to make the touch, make the touch happen!" textAlignment="JUSTIFY" textFill="#c1e5f1">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="129.0" fitWidth="224.0" layoutX="969.0" layoutY="4.0">
+               <image>
+                  <Image url="@../New%20folder/Capture.JPG" />
+               </image>
+            </ImageView>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

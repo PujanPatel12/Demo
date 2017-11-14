@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NewInstructorRosterController">
+  <children>
+    <MenuBar VBox.vgrow="NEVER">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" text="New" />
+            <MenuItem mnemonicParsing="false" text="Open…" />
+            <Menu mnemonicParsing="false" text="Open Recent" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Close" />
+            <MenuItem mnemonicParsing="false" text="Save" />
+            <MenuItem mnemonicParsing="false" text="Save As…" />
+            <MenuItem mnemonicParsing="false" text="Revert" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Preferences…" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Quit" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Edit">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Undo" />
+            <MenuItem mnemonicParsing="false" text="Redo" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Cut" />
+            <MenuItem mnemonicParsing="false" text="Copy" />
+            <MenuItem mnemonicParsing="false" text="Paste" />
+            <MenuItem mnemonicParsing="false" text="Delete" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Select All" />
+            <MenuItem mnemonicParsing="false" text="Unselect All" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" text="About MyHelloApp" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #247f9e;" VBox.vgrow="ALWAYS">
+         <children>
+            <TabPane layoutX="28.0" layoutY="140.0" prefHeight="613.0" prefWidth="1224.0" style="-fx-background-color: #6698FF;" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                  <Tab style="-fx-background-color: #34aad1;" text="Instructors">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #81afc9;">
+                           <children>
+                              <Button layoutX="969.0" layoutY="425.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #dc143c;" text="Delete Instructor">
+                                 <font>
+                                    <Font name="System Bold" size="21.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="CreateNewInstructorButton" layoutX="969.0" layoutY="345.0" mnemonicParsing="false" onAction="#ManageNewInstructor" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #52D017;" text="Create New Instructor" textFill="#201414">
+                                 <font>
+                                    <Font name="System Bold" size="19.0" />
+                                 </font>
+                              </Button>
+                              <Button layoutX="969.0" layoutY="502.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #ffd700;" text="Update Instructor">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Button>
+                              <TableView layoutX="28.0" layoutY="22.0" prefHeight="530.0" prefWidth="888.0">
+                                 <columns>
+                                    <TableColumn prefWidth="75.0" text="Last Name" />
+                                    <TableColumn prefWidth="75.0" text="First Name" />
+                                    <TableColumn prefWidth="109.3016357421875" text="Phone Number" />
+                                    <TableColumn prefWidth="108.10650634765625" text="Address" />
+                                    <TableColumn prefWidth="96.89349365234375" text="City" />
+                                    <TableColumn prefWidth="79.10650634765625" text="State" />
+                                    <TableColumn prefWidth="79.10650634765625" text="Zip Code" />
+                                    <TableColumn prefWidth="79.10650634765625" text="Weapon" />
+                                    <TableColumn prefWidth="79.10650634765625" text="Certification" />
+                                 </columns>
+                              </TableView>
+                              <Slider layoutX="918.0" layoutY="21.0" orientation="VERTICAL" prefHeight="540.0" prefWidth="22.0" />
+                              <Slider layoutX="29.0" layoutY="550.0" prefHeight="32.0" prefWidth="863.0" />
+                              <Text fill="WHITE" layoutX="961.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Instructor Roster" wrappingWidth="238.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="48.0" />
+                                 </font>
+                              </Text>
+                              <Button layoutX="969.0" layoutY="264.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Print" textFill="#201414">
+                                 <font>
+                                    <Font name="System Bold" size="19.0" />
+                                 </font>
+                              </Button>
+                              <Button layoutX="969.0" layoutY="192.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="View Instructor" textFill="#201414">
+                                 <font>
+                                    <Font name="System Bold" size="19.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+              </tabs>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </TabPane>
+            <ImageView fitHeight="139.0" fitWidth="672.0" layoutX="610.0" layoutY="-1.0">
+               <image>
+                  <Image url="@../New%20folder/header.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="139.0" fitWidth="931.0">
+               <image>
+                  <Image url="@../New%20folder/header.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="155.0" layoutY="14.0" prefHeight="48.0" prefWidth="697.0" text="Round Rock Fencing Club" textAlignment="JUSTIFY" textFill="#c1e5f1">
+               <font>
+                  <Font name="System Bold" size="58.0" />
+               </font>
+            </Label>
+            <Label layoutX="158.0" layoutY="81.0" prefHeight="48.0" prefWidth="697.0" text="Don't try to make the touch, make the touch happen!" textAlignment="JUSTIFY" textFill="#c1e5f1">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="129.0" fitWidth="224.0" layoutX="969.0" layoutY="4.0">
+               <image>
+                  <Image url="@../New%20folder/Capture.JPG" />
+               </image>
+            </ImageView>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

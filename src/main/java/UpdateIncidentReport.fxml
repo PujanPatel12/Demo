@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UpdateIncidentReportController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #247f9e;" VBox.vgrow="ALWAYS">
+         <children>
+            <TabPane layoutX="28.0" layoutY="140.0" prefHeight="613.0" prefWidth="1224.0" style="-fx-background-color: #6698FF;" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab style="-fx-background-color: #34aad1;" text="Incident Report">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #247f9e;">
+                           <children>
+                              <Button layoutX="973.0" layoutY="418.0" mnemonicParsing="false" onAction="#goIncidentMenu" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Incident Menu">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Button>
+                              <Text fill="WHITE" layoutX="984.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Incident Report" textAlignment="CENTER" wrappingWidth="201.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Text>
+                              <Button layoutX="973.0" layoutY="474.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Button>
+                              <Text fill="WHITE" layoutX="57.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Incident Name:" wrappingWidth="256.80340576171875">
+                                 <font>
+                                    <Font name="System Bold" size="26.0" />
+                                 </font>
+                              </Text>
+                              <Button layoutX="973.0" layoutY="362.0" mnemonicParsing="false" onAction="#ManageIncidentReportList" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Incident Report List">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Button>
+                              <Text fill="WHITE" layoutX="57.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Name:" wrappingWidth="186.80340576171875">
+                                 <font>
+                                    <Font name="System Bold" size="26.0" />
+                                 </font>
+                              </Text>
+                              <ChoiceBox fx:id="studentchoicebox" layoutX="275.0" layoutY="89.0" prefHeight="32.0" prefWidth="236.0" />
+                              <ChoiceBox fx:id="incidentchoiebox" layoutX="275.0" layoutY="195.0" prefHeight="32.0" prefWidth="308.0" />
+                              <Text fill="WHITE" layoutX="57.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Incident Date:" wrappingWidth="199.80340576171875">
+                                 <font>
+                                    <Font name="System Bold" size="26.0" />
+                                 </font>
+                              </Text>
+                              <DatePicker fx:id="incidentdatepicker" layoutX="275.0" layoutY="308.0" prefHeight="32.0" prefWidth="163.0" />
+                              <Button layoutX="973.0" layoutY="203.0" mnemonicParsing="false" onAction="#updatebuttonpressed" prefHeight="48.0" prefWidth="224.0" style="-fx-background-color: #ffd700;" text="Update" textAlignment="CENTER" wrapText="true">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Button>
+                              <Text fx:id="incidentrepid" fill="WHITE" layoutX="275.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="186.80340576171875">
+                                 <font>
+                                    <Font name="System Bold" size="26.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+              </tabs>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </TabPane>
+            <ImageView fitHeight="139.0" fitWidth="672.0" layoutX="610.0" layoutY="-1.0">
+               <image>
+                  <Image url="@../../New%20folder/header.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="139.0" fitWidth="931.0">
+               <image>
+                  <Image url="@../../New%20folder/header.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="155.0" layoutY="14.0" prefHeight="48.0" prefWidth="697.0" text="Round Rock Fencing Club" textAlignment="JUSTIFY" textFill="#c1e5f1">
+               <font>
+                  <Font name="System Bold" size="58.0" />
+               </font>
+            </Label>
+            <Label layoutX="158.0" layoutY="81.0" prefHeight="48.0" prefWidth="697.0" text="Don't try to make the touch, make the touch happen!" textAlignment="JUSTIFY" textFill="#c1e5f1">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="129.0" fitWidth="224.0" layoutX="969.0" layoutY="4.0">
+               <image>
+                  <Image url="@../../New%20folder/Capture.JPG" />
+               </image>
+            </ImageView>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

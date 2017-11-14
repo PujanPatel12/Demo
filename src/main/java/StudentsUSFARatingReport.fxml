@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StudentsUSFARatingReportController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #247f9e;" VBox.vgrow="ALWAYS">
+         <children>
+            <ImageView fitHeight="139.0" fitWidth="672.0" layoutX="610.0" layoutY="-1.0">
+               <image>
+                  <Image url="@../../../../AppData/Local/Temp/New%20folder/header.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="139.0" fitWidth="931.0">
+               <image>
+                  <Image url="@../../../../AppData/Local/Temp/New%20folder/header.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="155.0" layoutY="14.0" prefHeight="48.0" prefWidth="697.0" text="Round Rock Fencing Club" textAlignment="JUSTIFY" textFill="#c1e5f1">
+               <font>
+                  <Font name="System Bold" size="58.0" />
+               </font>
+            </Label>
+            <Label layoutX="158.0" layoutY="81.0" prefHeight="48.0" prefWidth="697.0" text="Don't try to make the touch, make the touch happen!" textAlignment="JUSTIFY" textFill="#c1e5f1">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="129.0" fitWidth="224.0" layoutX="969.0" layoutY="4.0">
+               <image>
+                  <Image url="@../../../../AppData/Local/Temp/New%20folder/Capture.JPG" />
+               </image>
+            </ImageView>
+            <Button layoutX="994.0" layoutY="664.0" mnemonicParsing="false" onAction="#goHome" prefHeight="56.0" prefWidth="234.0" style="-fx-background-color: white;" text="Main Menu">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+            <Label layoutX="971.0" layoutY="151.0" prefHeight="228.0" prefWidth="280.0" text="All Student USFA Rankings by Weapon" textAlignment="CENTER" textFill="#fcfcfc" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <TableView fx:id="reportlist" layoutX="52.0" layoutY="366.0" prefHeight="354.0" prefWidth="886.0">
+               <columns>
+                  <TableColumn fx:id="studentidcol" prefWidth="121.00003051757812" text="Student ID" />
+                  <TableColumn fx:id="studentlastnamecol" prefWidth="184.0" text="Student Last Name" />
+                  <TableColumn fx:id="studentfirstnamecol" prefWidth="204.0" text="Student First Name" />
+                  <TableColumn fx:id="weaponNamecol" prefWidth="162.0" text="Weapon" />
+                  <TableColumn fx:id="USfarankingcol" prefWidth="213.0" text="USFA Ranking" />
+               </columns>
+            </TableView>
+            <Button layoutX="994.0" layoutY="592.0" mnemonicParsing="false" onAction="#ManageReports" prefHeight="56.0" prefWidth="234.0" style="-fx-background-color: #a8ccdf;" text="Report Menu">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="392.0" layoutY="280.0" mnemonicParsing="false" onAction="#generatebuttonpressed" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #52D017;" text="Generate">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Label layoutX="116.0" layoutY="199.0" prefHeight="48.0" prefWidth="141.0" text="Weapon:" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="weaponchoicebox" layoutX="237.0" layoutY="207.0" prefHeight="32.0" prefWidth="141.0" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

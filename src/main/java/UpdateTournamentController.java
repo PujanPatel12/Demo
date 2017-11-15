@@ -26,8 +26,10 @@ public class UpdateTournamentController extends MainController {
     public Text tournamentidtext;
 
     public void initialize(){
+
         tournamentidtext.setVisible(false);
     }
+
 
     public void UpdateTournament(ActionEvent actionEvent) throws IOException, SQLException {
         tournamentidtext.setVisible(false);

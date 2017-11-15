@@ -11,6 +11,32 @@ public class OneStuClassvstest {
     private Date testDate;
     private int studentScore;
     private int finalScore;
+    private int highestTestScore;
+
+    @Override
+    public String toString() {
+        return "OneStuClassvstest{" +
+                "Stu_lastName='" + Stu_lastName + '\'' +
+                ", Stu_firstName='" + Stu_firstName + '\'' +
+                ", courseName='" + courseName + '\'' +
+                ", sectionNumber=" + sectionNumber +
+                ", classStartDate=" + classStartDate +
+                ", classEndDate=" + classEndDate +
+                ", testName='" + testName + '\'' +
+                ", testDate=" + testDate +
+                ", studentScore=" + studentScore +
+                ", finalScore=" + finalScore +
+                ", highestTestScore=" + highestTestScore +
+                '}';
+    }
+
+    public int getHighestTestScore() {
+        return highestTestScore;
+    }
+
+    public void setHighestTestScore(int highestTestScore) {
+        this.highestTestScore = highestTestScore;
+    }
 
     public String getStu_lastName() {
         return Stu_lastName;
@@ -92,19 +118,4 @@ public class OneStuClassvstest {
         this.finalScore = finalScore;
     }
 
-    @Override
-    public String toString() {
-        return "OneStuClassvstest{" +
-                "Stu_lastName='" + Stu_lastName + '\'' +
-                ", Stu_firstName='" + Stu_firstName + '\'' +
-                ", courseName='" + courseName + '\'' +
-                ", sectionNumber=" + sectionNumber +
-                ", classStartDate=" + classStartDate +
-                ", classEndDate=" + classEndDate +
-                ", testName='" + testName + '\'' +
-                ", testDate=" + testDate +
-                ", studentScore=" + studentScore +
-                ", finalScore=" + finalScore +
-                '}';
-    }
 }

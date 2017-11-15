@@ -7,57 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42d60147-629a-491d-9a89-a702428e6feb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/TournamentResult.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/TestListController.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/2736483a-add8-422a-9de7-b0c0ed13407a/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/2736483a-add8-422a-9de7-b0c0ed13407a/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/2736483a-add8-422a-9de7-b0c0ed13407a/_metadata_/metadata.values.at" afterPath="$PROJECT_DIR$/.idea/dataSources/2736483a-add8-422a-9de7-b0c0ed13407a/_metadata_/metadata.values.at" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/OneStudentPrivateLesson.class" afterPath="$PROJECT_DIR$/target/classes/OneStudentPrivateLesson.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/OneStudentPrivatelessonsVsTourneyResultsController.class" afterPath="$PROJECT_DIR$/target/classes/OneStudentPrivatelessonsVsTourneyResultsController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/OneStudentTournamentResultsController.class" afterPath="$PROJECT_DIR$/target/classes/OneStudentTournamentResultsController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Test.class" afterPath="$PROJECT_DIR$/target/classes/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/TournamentResultListController.class" afterPath="$PROJECT_DIR$/target/classes/TournamentResultListController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/UpdateTestResultController.class" afterPath="$PROJECT_DIR$/target/classes/UpdateTestResultController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/UpdateTournamentController.class" afterPath="$PROJECT_DIR$/target/classes/UpdateTournamentController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FinalApp.iml" afterPath="$PROJECT_DIR$/FinalApp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/AddStudentToClassController.java" afterPath="$PROJECT_DIR$/src/main/java/AddStudentToClassController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DBHelper.java" afterPath="$PROJECT_DIR$/src/main/java/DBHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Login.fxml" afterPath="$PROJECT_DIR$/src/main/java/Login.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/NewTournamentData.fxml" afterPath="$PROJECT_DIR$/src/main/java/NewTournamentData.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ManageGuardian.fxml" afterPath="$PROJECT_DIR$/src/main/java/ManageGuardian.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ManageInstructor.fxml" afterPath="$PROJECT_DIR$/src/main/java/ManageInstructor.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ManageStudent.fxml" afterPath="$PROJECT_DIR$/src/main/java/ManageStudent.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/NewTournamentResult.fxml" afterPath="$PROJECT_DIR$/src/main/java/NewTournamentResult.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/OneStudentPrivateLesson.java" afterPath="$PROJECT_DIR$/src/main/java/OneStudentPrivateLesson.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/OneStudentPrivatelessonsVsTourneyResultsController.java" afterPath="$PROJECT_DIR$/src/main/java/OneStudentPrivatelessonsVsTourneyResultsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/OneStudentTournamentResultsController.java" afterPath="$PROJECT_DIR$/src/main/java/OneStudentTournamentResultsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Test.java" afterPath="$PROJECT_DIR$/src/main/java/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/TestList.fxml" afterPath="$PROJECT_DIR$/src/main/java/TestList.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/TestListController.java" afterPath="$PROJECT_DIR$/src/main/java/TestListController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/TestResultInputContoller.java" afterPath="$PROJECT_DIR$/src/main/java/TestResultInputContoller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/TournamentResultList.fxml" afterPath="$PROJECT_DIR$/src/main/java/TournamentResultList.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/NewTournamentResultController.java" afterPath="$PROJECT_DIR$/src/main/java/NewTournamentResultController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/OneStuClassvstest.java" afterPath="$PROJECT_DIR$/src/main/java/OneStuClassvstest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/OneStudentClassesVsTestResultsController.java" afterPath="$PROJECT_DIR$/src/main/java/OneStudentClassesVsTestResultsController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/StudentsUSFARatingReportController.java" afterPath="$PROJECT_DIR$/src/main/java/StudentsUSFARatingReportController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/TournamentResultListController.java" afterPath="$PROJECT_DIR$/src/main/java/TournamentResultListController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/UpdateClass.fxml" afterPath="$PROJECT_DIR$/src/main/java/UpdateClass.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/UpdateCourse.fxml" afterPath="$PROJECT_DIR$/src/main/java/UpdateCourse.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/UpdateGuardian.fxml" afterPath="$PROJECT_DIR$/src/main/java/UpdateGuardian.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/UpdateInstructor.fxml" afterPath="$PROJECT_DIR$/src/main/java/UpdateInstructor.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/UpdateTestResult.fxml" afterPath="$PROJECT_DIR$/src/main/java/UpdateTestResult.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/UpdateTestResultController.java" afterPath="$PROJECT_DIR$/src/main/java/UpdateTestResultController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/UpdateTournament.fxml" afterPath="$PROJECT_DIR$/src/main/java/UpdateTournament.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/UpdateTournamentController.java" afterPath="$PROJECT_DIR$/src/main/java/UpdateTournamentController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/UpdateTournamentResult.fxml" afterPath="$PROJECT_DIR$/src/main/java/UpdateTournamentResult.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Login.fxml" afterPath="$PROJECT_DIR$/target/classes/Login.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/NewTournamentData.fxml" afterPath="$PROJECT_DIR$/target/classes/NewTournamentData.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/NewTournamentResult.fxml" afterPath="$PROJECT_DIR$/target/classes/NewTournamentResult.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/TestList.fxml" afterPath="$PROJECT_DIR$/target/classes/TestList.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/TournamentResultList.fxml" afterPath="$PROJECT_DIR$/target/classes/TournamentResultList.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/UpdateClass.fxml" afterPath="$PROJECT_DIR$/target/classes/UpdateClass.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/UpdateCourse.fxml" afterPath="$PROJECT_DIR$/target/classes/UpdateCourse.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/UpdateGuardian.fxml" afterPath="$PROJECT_DIR$/target/classes/UpdateGuardian.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/UpdateInstructor.fxml" afterPath="$PROJECT_DIR$/target/classes/UpdateInstructor.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/UpdateTournament.fxml" afterPath="$PROJECT_DIR$/target/classes/UpdateTournament.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/UpdateTournamentResult.fxml" afterPath="$PROJECT_DIR$/target/classes/UpdateTournamentResult.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/UpdateTournamentResultController.java" afterPath="$PROJECT_DIR$/src/main/java/UpdateTournamentResultController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -80,7 +43,51 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="RealFinalFInal@172.26.54.39" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="RealFinalFInal@172.26.54.39" type="e3449647:DbNodeDescriptor" />
+        <item name="RealFinalFinal" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="RealFinalFInal@172.26.54.39" type="e3449647:DbNodeDescriptor" />
+        <item name="RealFinalFinal" type="e3449647:DbNodeDescriptor" />
+        <item name="dbo" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="RealFinalFInal@172.26.54.39" type="e3449647:DbNodeDescriptor" />
+        <item name="RealFinalFinal" type="e3449647:DbNodeDescriptor" />
+        <item name="dbo" type="e3449647:DbNodeDescriptor" />
+        <item name="Event_Result" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="RealFinalFInal@172.26.54.39" type="e3449647:DbNodeDescriptor" />
+        <item name="RealFinalFinal" type="e3449647:DbNodeDescriptor" />
+        <item name="dbo" type="e3449647:DbNodeDescriptor" />
+        <item name="Test" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="RealFinalFInal@172.26.54.39" type="e3449647:DbNodeDescriptor" />
+        <item name="RealFinalFinal" type="e3449647:DbNodeDescriptor" />
+        <item name="dbo" type="e3449647:DbNodeDescriptor" />
+        <item name="Test_Result" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="RealFinalFInal@172.26.54.39" type="e3449647:DbNodeDescriptor" />
+        <item name="RealFinalFinal" type="e3449647:DbNodeDescriptor" />
+        <item name="dbo" type="e3449647:DbNodeDescriptor" />
+        <item name="Tournament_Event" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FavoritesManager">
@@ -94,60 +101,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestListController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TestListController.java">
+      <file leaf-file-name="UpdateTournamentResultController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UpdateTournamentResultController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="98" column="80" lean-forward="false" selection-start-line="98" selection-start-column="80" selection-end-line="98" selection-end-column="80" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestResultInputContoller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TestResultInputContoller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="82" column="94" lean-forward="false" selection-start-line="82" selection-start-column="94" selection-end-line="82" selection-end-column="94" />
+            <state relative-caret-position="332">
+              <caret line="107" column="65" lean-forward="true" selection-start-line="107" selection-start-column="65" selection-end-line="107" selection-end-column="65" />
               <folding>
-                <marker date="1510761010000" expanded="true" signature="768:800" ph="Select testI... Test" />
-                <marker date="1510761010000" expanded="true" signature="1242:1298" ph="SELECT stude... Student" />
-                <marker date="1510761010000" expanded="true" signature="2215:2322" ph="INSERT INTO Test_Result... " />
+                <marker date="1510782606000" expanded="true" signature="1062:1136" ph="SELECT DISTI... Tournament_Event" />
+                <marker date="1510782606000" expanded="true" signature="1647:1703" ph="SELECT stude... Student" />
+                <marker date="1510782606000" expanded="true" signature="3283:3321" ph="UPDATE RealF... " />
+                <marker date="1510782606000" expanded="true" signature="3283:3322" ph="UPDATE RealF... " />
+                <marker date="1510782606000" expanded="true" signature="3283:3414" ph="UPDATE RealF... " />
+                <marker date="1510782606000" expanded="true" signature="3283:3418" ph="UPDATE RealF... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Datasource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Datasource.java">
+      <file leaf-file-name="StudentsUSFARatingReportController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StudentsUSFARatingReportController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ManageStudentController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ManageStudentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddStudentToClassController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AddStudentToClassController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="114" column="28" lean-forward="false" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
+            <state relative-caret-position="272">
+              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding>
-                <marker date="1510762959000" expanded="true" signature="859:915" ph="SELECT stude... Student" />
-                <marker date="1510762959000" expanded="true" signature="1579:1711" ph="Select DISTI... Class" />
-                <marker date="1510762959000" expanded="true" signature="2272:2305" ph="Select * fro... Class_Roster_Status" />
-                <marker date="1510762959000" expanded="true" signature="3648:3741" ph="Insert INTO Class_Roster" />
+                <marker date="1510782734000" expanded="true" signature="1446:1494" ph="SELECT DISTI... Weapon" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ef0cc17a-bbd7-4a41-9b6e-abfea1f2f50a/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="494" lean-forward="false" selection-start-line="0" selection-start-column="494" selection-end-line="0" selection-end-column="494" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OneStudentClassesVsTestResultsController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/OneStudentClassesVsTestResultsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="78" column="113" lean-forward="false" selection-start-line="78" selection-start-column="113" selection-end-line="78" selection-end-column="113" />
+              <folding>
+                <marker date="1510782938000" expanded="true" signature="1666:1722" ph="SELECT stude... Student" />
               </folding>
             </state>
           </provider>
@@ -156,7 +155,7 @@
       <file leaf-file-name="NewStudentProfileController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/NewStudentProfileController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
+            <state relative-caret-position="129">
               <caret line="150" column="15" lean-forward="false" selection-start-line="150" selection-start-column="15" selection-end-line="154" selection-end-column="36" />
               <folding>
                 <marker date="1510618176000" expanded="true" signature="1234:1263" ph="Select weapo... Weapon" />
@@ -170,24 +169,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CourseListController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CourseListController.java">
+      <file leaf-file-name="OneStuClassvstest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/OneStuClassvstest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="133">
+              <caret line="16" column="18" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="33" />
               <folding>
-                <marker date="1510586633000" expanded="true" signature="4585:4640" ph="UPDATE Cours... " />
+                <element signature="e#1129#1130#0" expanded="true" />
+                <element signature="e#1168#1169#0" expanded="true" />
+                <element signature="e#1229#1230#0" expanded="true" />
+                <element signature="e#1285#1286#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DBHelper.java">
+      <file leaf-file-name="UpdateTestResultController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UpdateTestResultController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+            <state relative-caret-position="356">
+              <caret line="113" column="97" lean-forward="false" selection-start-line="113" selection-start-column="97" selection-end-line="113" selection-end-column="97" />
+              <folding>
+                <marker date="1510783402000" expanded="true" signature="882:914" ph="Select testI... Test" />
+                <marker date="1510783402000" expanded="true" signature="1344:1400" ph="SELECT stude... Student" />
+                <marker date="1510783402000" expanded="true" signature="3015:3125" ph="Update Test_... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdateTournamentController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UpdateTournamentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="40" column="40" lean-forward="false" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdateStudentProfileController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UpdateStudentProfileController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="121" column="266" lean-forward="false" selection-start-line="121" selection-start-column="266" selection-end-line="121" selection-end-column="266" />
+              <folding>
+                <marker date="1510586457000" expanded="true" signature="1341:1370" ph="Select weapo... Weapon" />
+                <marker date="1510586457000" expanded="true" signature="1740:1776" ph="Select state... State_Province" />
+                <marker date="1510586457000" expanded="true" signature="2108:2139" ph="Select count... Country" />
+                <marker date="1510586457000" expanded="true" signature="2486:2532" ph="Select Stu_S... Student_Status" />
+                <marker date="1510586457000" expanded="true" signature="2924:2974" ph="Select commu... Communication_Medium" />
+                <marker date="1510586457000" expanded="true" signature="4568:4812" ph="UPDATE Stude... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,25 +228,12 @@
       <file leaf-file-name="UpdateCourseController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/UpdateCourseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="69" column="36" lean-forward="false" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+            <state relative-caret-position="71">
+              <caret line="68" column="112" lean-forward="false" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="112" />
               <folding>
                 <marker date="1510586986000" expanded="true" signature="850:912" ph="Select Cour_... Course_Status" />
                 <marker date="1510586986000" expanded="true" signature="2362:2453" ph="UPDATE Cours... " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UpdateTestResult.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/UpdateTestResult.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="92" column="52" lean-forward="false" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -242,26 +262,31 @@
         <option value="$PROJECT_DIR$/src/main/java/GoalListController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Datasource.java" />
         <option value="$PROJECT_DIR$/src/main/java/ManageTournamentController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NewTournamentResultController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UpdateTournamentResultController.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2736483a-add8-422a-9de7-b0c0ed13407a/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/TournamentResultListController.java" />
         <option value="$PROJECT_DIR$/src/main/java/TournamentResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/DBHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UpdateTournamentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/OneStudentPrivatelessonsVsTourneyResultsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/OneStudentPrivateLesson.java" />
         <option value="$PROJECT_DIR$/src/main/java/OneStudentTournamentResultsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestList.fxml" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ef0cc17a-bbd7-4a41-9b6e-abfea1f2f50a/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UpdateTestResultController.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestListController.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestResultInputContoller.java" />
         <option value="$PROJECT_DIR$/src/main/java/AddStudentToClassController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NewTournamentResult.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/NewTournamentResultController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UpdateTournamentResult.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/TournamentResultListController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UpdateTournamentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UpdateTournamentResultController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StudentsUSFARatingReportController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ef0cc17a-bbd7-4a41-9b6e-abfea1f2f50a/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/OneStudentClassesVsTestResultsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/OneStuClassvstest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UpdateTestResultController.java" />
       </list>
     </option>
   </component>
@@ -305,7 +330,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="817" />
@@ -462,7 +487,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -514,8 +539,8 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -528,11 +553,12 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="SQL Server (Microsoft)" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1016,11 +1042,12 @@
       <workItem from="1510701748459" duration="2854000" />
       <workItem from="1510707713137" duration="5407000" />
       <workItem from="1510714232975" duration="10200000" />
+      <workItem from="1510777209156" duration="4062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23826000" />
+    <option name="totallyTimeSpent" value="27888000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1032,7 +1059,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="817" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="812" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1043,20 +1070,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35193133" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3501441" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853025" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853025" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25608012" sideWeight="0.49115044" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25894135" sideWeight="0.48337027" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25894135" sideWeight="0.5166297" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25608012" sideWeight="0.50884956" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1064,6 +1091,36 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294964" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294964" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3501441" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853025" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853025" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25965664" sideWeight="0.49115044" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25608012" sideWeight="0.50884956" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1090,75 +1147,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ManageTournamentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="28" column="64" lean-forward="false" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Datasource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="27" column="2" lean-forward="false" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DBHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NewGoalController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="92" column="39" lean-forward="false" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GoalListController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AddStudentToClassController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding>
-            <marker date="1510762959000" expanded="true" signature="859:915" ph="SELECT stude... Student" />
-            <marker date="1510762959000" expanded="true" signature="1579:1711" ph="Select DISTI... Class" />
-            <marker date="1510762959000" expanded="true" signature="2272:2305" ph="Select * fro... Class_Roster_Status" />
-            <marker date="1510762959000" expanded="true" signature="3648:3741" ph="Insert INTO Class_Roster" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1239,20 +1227,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UpdateTournamentResultController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NewTournamentResultController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GoalListController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1276,17 +1250,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="96" lean-forward="false" selection-start-line="0" selection-start-column="96" selection-end-line="0" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TournamentResultListController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="103" lean-forward="false" selection-start-line="41" selection-start-column="103" selection-end-line="41" selection-end-column="103" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1333,18 +1296,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UpdateTournamentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-169">
-          <caret line="38" column="35" lean-forward="false" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
-          <folding>
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <marker date="1510719789000" expanded="true" signature="1157:1262" ph="UPDATE Tourn... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/OneStudentPrivatelessonsVsTourneyResultsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
@@ -1386,20 +1337,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ef0cc17a-bbd7-4a41-9b6e-abfea1f2f50a/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="264" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="403" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TournamentResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
-            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1512,28 +1455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UpdateTestResultController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="37" column="10" lean-forward="false" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-          <folding>
-            <marker date="1510760783000" expanded="true" signature="937:969" ph="Select testI... Test" />
-            <marker date="1510760783000" expanded="true" signature="1399:1455" ph="SELECT stude... Student" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UpdateCourseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="69" column="36" lean-forward="false" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
-          <folding>
-            <marker date="1510586986000" expanded="true" signature="850:912" ph="Select Cour_... Course_Status" />
-            <marker date="1510586986000" expanded="true" signature="2362:2453" ph="UPDATE Cours... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CourseListController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1549,7 +1470,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="1380">
           <caret line="92" column="52" lean-forward="false" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
           <folding />
         </state>
@@ -1557,37 +1478,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestListController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
+        <state relative-caret-position="1215">
           <caret line="98" column="80" lean-forward="false" selection-start-line="98" selection-start-column="80" selection-end-line="98" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NewStudentProfileController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Datasource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="150" column="15" lean-forward="false" selection-start-line="150" selection-start-column="15" selection-end-line="154" selection-end-column="36" />
-          <folding>
-            <marker date="1510618176000" expanded="true" signature="1234:1263" ph="Select weapo... Weapon" />
-            <marker date="1510618176000" expanded="true" signature="1633:1669" ph="Select state... State_Province" />
-            <marker date="1510618176000" expanded="true" signature="2001:2032" ph="Select count... Country" />
-            <marker date="1510618176000" expanded="true" signature="2379:2425" ph="Select Stu_S... Student_Status" />
-            <marker date="1510618176000" expanded="true" signature="2817:2867" ph="Select commu... Communication_Medium" />
-            <marker date="1510618176000" expanded="true" signature="4500:4714" ph="INSERT INTO STUDENT... " />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestResultInputContoller.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DBHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="82" column="94" lean-forward="false" selection-start-line="82" selection-start-column="94" selection-end-line="82" selection-end-column="94" />
+        <state relative-caret-position="405">
+          <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ManageStudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NewTournamentResult.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="89" column="121" lean-forward="true" selection-start-line="89" selection-start-column="121" selection-end-line="89" selection-end-column="121" />
           <folding>
-            <marker date="1510761010000" expanded="true" signature="768:800" ph="Select testI... Test" />
-            <marker date="1510761010000" expanded="true" signature="1242:1298" ph="SELECT stude... Student" />
-            <marker date="1510761010000" expanded="true" signature="2215:2322" ph="INSERT INTO Test_Result... " />
+            <marker date="1510780615000" expanded="true" signature="7752:7812" ph="..." />
+            <marker date="1510780615000" expanded="true" signature="7925:8059" ph="..." />
+            <marker date="1510780615000" expanded="true" signature="7948:8034" ph="..." />
+            <marker date="1510780615000" expanded="true" signature="8118:8252" ph="..." />
+            <marker date="1510780615000" expanded="true" signature="8141:8227" ph="..." />
+            <marker date="1510780615000" expanded="true" signature="8413:8537" ph="..." />
+            <marker date="1510780615000" expanded="true" signature="8435:8516" ph="..." />
+            <marker date="1510780615000" expanded="true" signature="8726:8850" ph="..." />
+            <marker date="1510780615000" expanded="true" signature="8748:8829" ph="..." />
+            <marker date="1510780615000" expanded="true" signature="8939:9074" ph="..." />
+            <marker date="1510780615000" expanded="true" signature="8962:9049" ph="..." />
           </folding>
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AddStudentToClassController.java">
@@ -1603,27 +1544,183 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DBHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestResultInputContoller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+        <state relative-caret-position="-421">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <marker date="1510761010000" expanded="true" signature="768:800" ph="Select testI... Test" />
+            <marker date="1510761010000" expanded="true" signature="1242:1298" ph="SELECT stude... Student" />
+            <marker date="1510761010000" expanded="true" signature="2215:2322" ph="INSERT INTO Test_Result... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UpdateTournamentResult.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="113" column="144" lean-forward="true" selection-start-line="113" selection-start-column="144" selection-end-line="113" selection-end-column="144" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Weapon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Datasource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/StudentListController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        <state relative-caret-position="257">
+          <caret line="128" column="21" lean-forward="true" selection-start-line="128" selection-start-column="12" selection-end-line="128" selection-end-column="21" />
+          <folding>
+            <marker date="1510618176000" expanded="true" signature="5264:5320" ph="UPDATE Stude... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TournamentResultListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="72" column="107" lean-forward="false" selection-start-line="72" selection-start-column="107" selection-end-line="72" selection-end-column="107" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ManageStudentController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/NewTournamentResultController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="131">
+          <caret line="106" column="38" lean-forward="true" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />
+          <folding>
+            <marker date="1510781391000" expanded="true" signature="944:1018" ph="SELECT DISTI... Tournament_Event" />
+            <marker date="1510781391000" expanded="true" signature="1607:1663" ph="SELECT stude... Student" />
+            <marker date="1510781391000" expanded="true" signature="3445:3499" ph="Insert into Event_Result... " />
+            <marker date="1510781391000" expanded="true" signature="3445:3526" ph="Insert into Event_Result... " />
+            <marker date="1510781391000" expanded="true" signature="3445:3545" ph="Insert into Event_Result... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UpdateCourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="68" column="112" lean-forward="false" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="112" />
+          <folding>
+            <marker date="1510586986000" expanded="true" signature="850:912" ph="Select Cour_... Course_Status" />
+            <marker date="1510586986000" expanded="true" signature="2362:2453" ph="UPDATE Cours... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UpdateStudentProfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="121" column="266" lean-forward="false" selection-start-line="121" selection-start-column="266" selection-end-line="121" selection-end-column="266" />
+          <folding>
+            <marker date="1510586457000" expanded="true" signature="1341:1370" ph="Select weapo... Weapon" />
+            <marker date="1510586457000" expanded="true" signature="1740:1776" ph="Select state... State_Province" />
+            <marker date="1510586457000" expanded="true" signature="2108:2139" ph="Select count... Country" />
+            <marker date="1510586457000" expanded="true" signature="2486:2532" ph="Select Stu_S... Student_Status" />
+            <marker date="1510586457000" expanded="true" signature="2924:2974" ph="Select commu... Communication_Medium" />
+            <marker date="1510586457000" expanded="true" signature="4568:4812" ph="UPDATE Stude... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UpdateTournamentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="40" column="40" lean-forward="false" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UpdateTournamentResultController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="107" column="65" lean-forward="true" selection-start-line="107" selection-start-column="65" selection-end-line="107" selection-end-column="65" />
+          <folding>
+            <marker date="1510782606000" expanded="true" signature="1062:1136" ph="SELECT DISTI... Tournament_Event" />
+            <marker date="1510782606000" expanded="true" signature="1647:1703" ph="SELECT stude... Student" />
+            <marker date="1510782606000" expanded="true" signature="3283:3321" ph="UPDATE RealF... " />
+            <marker date="1510782606000" expanded="true" signature="3283:3322" ph="UPDATE RealF... " />
+            <marker date="1510782606000" expanded="true" signature="3283:3414" ph="UPDATE RealF... " />
+            <marker date="1510782606000" expanded="true" signature="3283:3418" ph="UPDATE RealF... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StudentsUSFARatingReportController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <marker date="1510782734000" expanded="true" signature="1446:1494" ph="SELECT DISTI... Weapon" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ef0cc17a-bbd7-4a41-9b6e-abfea1f2f50a/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="494" lean-forward="false" selection-start-line="0" selection-start-column="494" selection-end-line="0" selection-end-column="494" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OneStudentClassesVsTestResultsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="78" column="113" lean-forward="false" selection-start-line="78" selection-start-column="113" selection-end-line="78" selection-end-column="113" />
+          <folding>
+            <marker date="1510782938000" expanded="true" signature="1666:1722" ph="SELECT stude... Student" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OneStuClassvstest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="e#1129#1130#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NewStudentProfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="150" column="15" lean-forward="false" selection-start-line="150" selection-start-column="15" selection-end-line="154" selection-end-column="36" />
+          <folding>
+            <marker date="1510618176000" expanded="true" signature="1234:1263" ph="Select weapo... Weapon" />
+            <marker date="1510618176000" expanded="true" signature="1633:1669" ph="Select state... State_Province" />
+            <marker date="1510618176000" expanded="true" signature="2001:2032" ph="Select count... Country" />
+            <marker date="1510618176000" expanded="true" signature="2379:2425" ph="Select Stu_S... Student_Status" />
+            <marker date="1510618176000" expanded="true" signature="2817:2867" ph="Select commu... Communication_Medium" />
+            <marker date="1510618176000" expanded="true" signature="4500:4714" ph="INSERT INTO STUDENT... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UpdateTestResultController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="113" column="97" lean-forward="false" selection-start-line="113" selection-start-column="97" selection-end-line="113" selection-end-column="97" />
+          <folding>
+            <marker date="1510783402000" expanded="true" signature="882:914" ph="Select testI... Test" />
+            <marker date="1510783402000" expanded="true" signature="1344:1400" ph="SELECT stude... Student" />
+            <marker date="1510783402000" expanded="true" signature="3015:3125" ph="Update Test_... " />
+          </folding>
         </state>
       </provider>
     </entry>

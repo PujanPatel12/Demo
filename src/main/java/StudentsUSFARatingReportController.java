@@ -38,7 +38,7 @@ public class StudentsUSFARatingReportController extends MainController {
         SQLServerDataSource ds = Datasource.getINSTANCE().datasource();
         QueryRunner queryRunner = new QueryRunner(ds);
         Statement statement1 = connection.createStatement();
-        ResultSet resultSet1 = statement1.executeQuery("SELECT weaponID,weaponName from Weapon");
+        ResultSet resultSet1 = statement1.executeQuery("SELECT  DISTINCT weaponID,weaponName from Weapon");
         String weaponName;
 
         while (resultSet1.next()) {

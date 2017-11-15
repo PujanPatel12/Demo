@@ -62,7 +62,7 @@ public class OneStudentClassesVsTestResultsController extends MainController {
         int studentid = studentidchoicebox.getSelectionModel().getSelectedIndex()+1;
         String studentfn = studentfntextfield.getText();
         String studentln = studentlntextfield.getText();
-        String sql ="select Student.studentID,Stu_lastName,Stu_firstName,courseName,sectionNumber,classStartDate,classEndDate,testName,testDate,studentScore,Test_Result.finalScore from Student INNER JOIN Test_Result on Student.studentID = Test_Result.studentID INNER JOIN Class_Roster on Student.studentID = Class_Roster.studentID INNER JOIN Class on Class_Roster.classID = Class.classID INNER JOIN Course on Class.courseID = Course.courseID INNER JOIN Test on Test_Result.testID = Test.testID WHERE Student.studentID="+studentid + " OR Student.Stu_firstName ='"+ studentfn + "'" + "OR Student.Stu_lastName ="+ "'"+studentln+ "'" + "ORDER BY Student.studentID";
+        String sql ="select Student.studentID,Stu_lastName,Stu_firstName,courseName,sectionNumber,classStartDate,classEndDate,testName,testDate,studentScore,Test_Result.finalScore,Test.highestTestScore from Student INNER JOIN Test_Result on Student.studentID = Test_Result.studentID INNER JOIN Class_Roster on Student.studentID = Class_Roster.studentID INNER JOIN Class on Class_Roster.classID = Class.classID INNER JOIN Course on Class.courseID = Course.courseID INNER JOIN Test on Test_Result.testID = Test.testID WHERE Student.studentID="+studentid + " OR Student.Stu_firstName ='"+ studentfn + "'" + "OR Student.Stu_lastName ="+ "'"+studentln+ "'" + "ORDER BY Student.studentID";
         SQLServerDataSource ds = Datasource.getINSTANCE().datasource();
         QueryRunner queryRunner = new QueryRunner(ds);
         ResultSetHandler<List<OneStuClassvstest>> O = new BeanListHandler<OneStuClassvstest>(OneStuClassvstest.class);
@@ -76,7 +76,7 @@ public class OneStudentClassesVsTestResultsController extends MainController {
         testnamecol.setCellValueFactory(new PropertyValueFactory<OneStuClassvstest,String>("testName"));
         testdatecol.setCellValueFactory(new PropertyValueFactory<OneStuClassvstest,Date>("testDate"));
         studentScorecol.setCellValueFactory(new PropertyValueFactory<OneStuClassvstest,Integer>("studentScore"));
-        highestscorecol.setCellValueFactory(new PropertyValueFactory<OneStuClassvstest,Integer>("finalScore"));
+        highestscorecol.setCellValueFactory(new PropertyValueFactory<OneStuClassvstest,Integer>("highestTestScore"));
         reportlist.setItems(FXCollections.observableArrayList(oneStuClassvstests));
     }
 

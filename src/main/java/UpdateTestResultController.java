@@ -5,10 +5,7 @@ import javafx.scene.control.*;
 import javafx.scene.text.Text;
 
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 /**
  * Created by Ryan on 11/7/2017.
@@ -26,6 +23,7 @@ public class UpdateTestResultController extends MainController {
 
 
     public void initialize() throws SQLException {
+        testidtext.setVisible(false);
 
         Connection connection = DBHelper.getINSTANCE().getConnection();
 
@@ -89,7 +87,37 @@ public class UpdateTestResultController extends MainController {
         super.createStage(root, actionEvent);
     }
 
-    public void UpdateTestResult(ActionEvent actionEvent) {
+    public void UpdateTestResult(ActionEvent actionEvent) throws SQLException {
+
+        int studentid = studentchoicebox.getSelectionModel().getSelectedIndex()+1;
+        int testid = testchoicebox.getSelectionModel().getSelectedIndex()+1;
+        int testscore = Integer.parseInt(studentscoretextfield.getText());
+        Date dateoftest = Date.valueOf(testdatepicker.getValue());
+        String notes = notestextarea.getText();
+        String tid = testidtext.getText();
+        int testidd = Integer.parseInt(tid);
+
+        Connection connection = DBHelper.getINSTANCE().getConnection();
+
+        String sql ="Update Test_Result set studentID =?, testID=?, testDate=?, studentScore =?, resultNotes=? where testResultID ="+ testidd;
+        try(PreparedStatement preparedStatement = connection.prepareStatement(sql)){
+            preparedStatement.setInt(1,studentid);
+            preparedStatement.setInt(2,testid);
+            preparedStatement.setDate(3,dateoftest);
+            preparedStatement.setInt(4,testscore);
+            preparedStatement.setString(5,notes);
+            preparedStatement.execute();
+            preparedStatement.close();;
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle("Updated Test Result");
+            alert.setHeaderText("Successfully Updated Test Result");
+            alert.setContentText("Successfully Updated Test Result for Student ID:" + studentid);
+            alert.showAndWait();
+        }
+
+        connection.close();
+
+
     }
 }
 

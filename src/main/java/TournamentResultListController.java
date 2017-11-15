@@ -59,10 +59,26 @@ public class TournamentResultListController extends MainController {
         createStage(root4, actionEvent);
     }
 
-    public void UpdateNewTournamentResult(ActionEvent actionEvent) throws IOException
-    {
-        Parent root4= FXMLLoader.load(getClass().getResource("NewTournamentResult.fxml"));
-        createStage(root4, actionEvent);
+    public void UpdateNewTournamentResult(ActionEvent actionEvent) throws IOException {
+        //Parent root4= FXMLLoader.load(getClass().getResource("NewTournamentResult.fxml"));
+        TournamentResult tournamentResult = (TournamentResult) TournamentResultList.getSelectionModel().getSelectedItem();
+        int trid = TournamentResultList.getSelectionModel().getSelectedIndex()+1;
+
+        if(tournamentResult != null){
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("UpdateTournamentResult.fxml"));
+            Parent root4 = fxmlLoader.load();
+            UpdateTournamentResultController tournamentResultController = fxmlLoader.getController();
+
+            tournamentResultController.studentchoicebox.setValue(tournamentResult.getStudentID());
+            tournamentResultController.eventnamechoicebox.setValue(tournamentResult.getTournmentEventName());
+            tournamentResultController.finalplacementtextfield.setText(String.valueOf(tournamentResult.getFinalPlacement()));
+            tournamentResultController.indicatortextfield.setText(String.valueOf(tournamentResult.getIndicator()));
+            tournamentResultController.idtext.setText(String.valueOf(trid));
+
+            createStage(root4, actionEvent);
+
+        }
+
     }
 
     public void goTournamentMenu(ActionEvent actionEvent) throws IOException

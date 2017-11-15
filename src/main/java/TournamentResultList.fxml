@@ -14,7 +14,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TournamentResultListController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TournamentResultListController">
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #247f9e;" VBox.vgrow="ALWAYS">
          <children>
@@ -24,16 +24,16 @@
                      <content>
                         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #247f9e;">
                            <children>
-                              <TableView fx:id="Tournament" layoutX="28.0" layoutY="14.0" prefHeight="530.0" prefWidth="850.0">
+                              <TableView fx:id="TournamentResultList" layoutX="28.0" layoutY="14.0" prefHeight="530.0" prefWidth="850.0">
                                  <columns>
-                                    <TableColumn fx:id="TournamentType1" prefWidth="65.0" text="Student ID" />
-                                    <TableColumn fx:id="TournamentName" prefWidth="111.00003051757812" text="Student Last Name" />
-                                    <TableColumn fx:id="TournamentType" prefWidth="120.0" text="Student First Name" />
-                                    <TableColumn fx:id="startDate" prefWidth="115.0" text="Tournament Name " />
-                                    <TableColumn fx:id="endDate" prefWidth="177.0" text="Tournament Event Name" />
-                                    <TableColumn fx:id="endDate1" prefWidth="75.0" text="Indicator" />
-                                    <TableColumn fx:id="endDate11" prefWidth="99.0" text="Final Placement" />
-                                    <TableColumn fx:id="endDate111" prefWidth="86.0" text="Event Size" />
+                                    <TableColumn fx:id="studentID" prefWidth="65.0" text="Student ID" />
+                                    <TableColumn fx:id="studentlastnamecol" prefWidth="111.00003051757812" text="Student Last Name" />
+                                    <TableColumn fx:id="studentfirstnamecol" prefWidth="120.0" text="Student First Name" />
+                                    <TableColumn fx:id="tournamentnamecol" prefWidth="115.0" text="Tournament Name " />
+                                    <TableColumn fx:id="tournamenteventname" prefWidth="177.0" text="Tournament Event Name" />
+                                    <TableColumn fx:id="incidatorcol" prefWidth="75.0" text="Indicator" />
+                                    <TableColumn fx:id="finalplacementcol" prefWidth="99.0" text="Final Placement" />
+                                    <TableColumn fx:id="eventsizecol" prefWidth="86.0" text="Event Size" />
                                  </columns>
                               </TableView>
                               <Text fill="WHITE" layoutX="922.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tournament Result List" textAlignment="CENTER" wrappingWidth="269.80340576171875">

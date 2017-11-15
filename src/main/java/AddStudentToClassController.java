@@ -98,7 +98,7 @@ public class AddStudentToClassController extends MainController {
         int status = rosterstatuschoicebox.getSelectionModel().getSelectedIndex()+1;
         int studentid = studentnameidchoicebox.getSelectionModel().getSelectedIndex()+1;
         Connection connection = DBHelper.getINSTANCE().getConnection();
-        String sql = "Insert  INTO Class_Roster(classID,studentID,Ros_statusCode,dateAdded) values (?,?,?,?) ";
+        String sql = "Insert  INTO Class_Roster(classID,studentID,Ros_statusCode,Ros_creationDate) values (?,?,?,?) ";
         try(PreparedStatement preparedStatement = connection.prepareStatement(sql)){
             preparedStatement.setInt(1,classid);
             preparedStatement.setInt(2,studentid);

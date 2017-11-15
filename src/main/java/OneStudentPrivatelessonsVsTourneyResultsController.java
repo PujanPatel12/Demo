@@ -89,7 +89,7 @@ public class OneStudentPrivatelessonsVsTourneyResultsController extends MainCont
         privatelessondatecol.setCellValueFactory(new PropertyValueFactory<OneStudentPrivateLesson,Date>("privateLessonDate"));
         tournamentdatecol.setCellValueFactory(new PropertyValueFactory<OneStudentPrivateLesson,Date>("startDate"));
         privatelessonnamecol.setCellValueFactory(new PropertyValueFactory<OneStudentPrivateLesson,String>("privateLessonName"));
-        tournamenteventnamecol.setCellValueFactory(new PropertyValueFactory<OneStudentPrivateLesson,String>("tournamentEventName"));
+        tournamenteventnamecol.setCellValueFactory(new PropertyValueFactory<OneStudentPrivateLesson,String>("tournmentEventName"));
         reportlist.setItems(FXCollections.observableArrayList(oneStudentPrivateLessons));
 
 

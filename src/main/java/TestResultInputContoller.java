@@ -77,7 +77,12 @@ public class TestResultInputContoller extends MainController {
             preparedStatement.setString(6,notestextarea.getText());
             preparedStatement.execute();
             preparedStatement.close();
-            System.out.println("Insert Successful");
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle("Added New Test Result");
+            alert.setHeaderText("Added new Test Result");
+            alert.setContentText("Successfully added New Test Result to Student : "+ studentid);
+            alert.showAndWait();
+
         }
         connection.close();
 

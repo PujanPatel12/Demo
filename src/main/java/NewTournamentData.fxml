@@ -18,7 +18,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NewTournamentDataController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NewTournamentDataController">
   <children>
     <MenuBar VBox.vgrow="NEVER">
       <menus>
@@ -67,22 +67,22 @@
                      <content>
                         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #247f9e;">
                            <children>
-                              <Text fill="WHITE" layoutX="56.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tournament Name :" wrappingWidth="240.00000482797623">
+                              <Text fill="WHITE" layoutX="61.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tournament Name :" wrappingWidth="258.0000048279762">
                                  <font>
                                     <Font size="26.0" />
                                  </font>
                               </Text>
-                              <Text fill="WHITE" layoutX="56.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tournament Type :" wrappingWidth="224.00000482797623">
+                              <Text fill="WHITE" layoutX="64.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tournament Type :" wrappingWidth="252.00000482797623">
                                  <font>
                                     <Font size="26.0" />
                                  </font>
                               </Text>
-                              <Text fill="WHITE" layoutX="56.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tournament Start Date :" wrappingWidth="283.0000048279762">
+                              <Text fill="WHITE" layoutX="56.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tournament Start Date :" wrappingWidth="308.0000048279762">
                                  <font>
                                     <Font size="26.0" />
                                  </font>
                               </Text>
-                              <Text fill="WHITE" layoutX="56.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tournament End Date :" wrappingWidth="268.0000048279762">
+                              <Text fill="WHITE" layoutX="61.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tournament End Date :" wrappingWidth="286.0000048279762">
                                  <font>
                                     <Font size="26.0" />
                                  </font>

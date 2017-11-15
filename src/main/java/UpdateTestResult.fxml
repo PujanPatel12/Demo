@@ -90,7 +90,7 @@
                                     <Font name="System Bold" size="24.0" />
                                  </font>
                               </Text>
-                              <TextField fx:id="studentidtextfield" layoutX="154.0" layoutY="41.0" prefHeight="31.0" prefWidth="103.0" />
+                              <ChoiceBox fx:id="studentchoicebox" layoutX="149.0" layoutY="42.0" prefHeight="30.0" prefWidth="210.0" />
                            </children>
                         </AnchorPane>
                   </content>

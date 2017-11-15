@@ -116,11 +116,6 @@
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Text fill="WHITE" layoutX="43.0" layoutY="428.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Instructor ID :" wrappingWidth="152.029296875">
-                                 <font>
-                                    <Font size="23.0" />
-                                 </font>
-                              </Text>
                               <Text fx:id="instructorIDText" fill="WHITE" layoutX="210.0" layoutY="428.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="101.029296875">
                                  <font>
                                     <Font size="23.0" />

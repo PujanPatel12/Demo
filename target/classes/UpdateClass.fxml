@@ -84,11 +84,6 @@
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Text fill="WHITE" layoutX="28.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Class ID : " wrappingWidth="206.13671875">
-                                 <font>
-                                    <Font name="System Bold" size="30.0" />
-                                 </font>
-                              </Text>
                               <Text fx:id="courseIDtext" fill="WHITE" layoutX="308.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="206.13671875">
                                  <font>
                                     <Font name="System Bold" size="30.0" />

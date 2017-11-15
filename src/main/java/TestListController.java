@@ -28,6 +28,12 @@ public class TestListController extends MainController {
     public TableColumn<Test,Integer> highestscorecol;
     public TableColumn<Test,String> testDescription;
     public TableView testtable;
+    public TableColumn firstnamecol1;
+    public TableColumn firstnamecol;
+    public TableColumn lastnamecol;
+    public TableColumn studentidcol;
+    public TableColumn studentscore;
+    public TableColumn testnotescol;
 
     public void initialize() throws SQLException {
         SQLServerDataSource ds = Datasource.getINSTANCE().datasource();
@@ -35,8 +41,13 @@ public class TestListController extends MainController {
         testnameCol.setCellValueFactory(new PropertyValueFactory<Test,String>("testName"));
         testDatecol.setCellValueFactory(new PropertyValueFactory<Test,Date>("testDate"));
         weaponnamecol.setCellValueFactory(new PropertyValueFactory<Test,String>("weaponName"));
-        testDescription.setCellValueFactory(new PropertyValueFactory<Test,String>("testDescription"));
+//        testDescription.setCellValueFactory(new PropertyValueFactory<Test,String>("testDescription"));
         highestscorecol.setCellValueFactory(new PropertyValueFactory<Test,Integer>("highestTestScore"));
+        studentidcol.setCellValueFactory(new PropertyValueFactory<Test,Integer>("studentID"));
+        firstnamecol.setCellValueFactory(new PropertyValueFactory<Test,Integer>("Stu_firstName"));
+        lastnamecol.setCellValueFactory(new PropertyValueFactory<Test,Integer>("Stu_firstName"));
+        studentscore.setCellValueFactory(new PropertyValueFactory<Test,Integer>("studentScore"));
+        testnotescol.setCellValueFactory(new PropertyValueFactory<Test,Integer>("resultNotes"));
         int selection = 0;
         if(testtable.getSelectionModel().getSelectedIndex() > -1){
             selection = testtable.getSelectionModel().getSelectedIndex();
@@ -44,32 +55,14 @@ public class TestListController extends MainController {
 
         QueryRunner queryRunner = new QueryRunner(ds);
         ResultSetHandler<List<Test>> T =  new BeanListHandler<Test>(Test.class);
-        List<Test> tests = queryRunner.query("select  Test.testID,Test.testName,Weapon.weaponName,Test_Result.testDate,Test.testDescription,Test.highestTestScore from Test  INNER JOIN  Weapon ON Test.weaponID = Weapon.weaponID INNER JOIN Test_Result ON Test.testID = Test_Result.testID", T);
+        List<Test> tests = queryRunner.query("select  Student.studentID,Student.stu_firstName, Student.stu_lastName, Test.testID,Test.testName,Weapon.weaponName,Test_Result.testDate,Test.testDescription,Test.highestTestScore,Test_Result.studentScore,resultNotes from Test  INNER JOIN  Weapon ON Test.weaponID = Weapon.weaponID INNER JOIN Test_Result ON Test.testID = Test_Result.testID INNER JOIN Student ON Test_Result.studentID = Student.studentID", T);
         testtable.setItems(FXCollections.observableArrayList(tests));
         testtable.getSelectionModel().getSelectedIndex();
 
     }
 
-    public void UpdateTestResult(ActionEvent actionEvent) throws IOException {
-
-       // Parent root4= FXMLLoader.load(getClass().getResource("UpdateTestResult.fxml"));
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("UpdateTestResult.fxml"));
-        Test test = (Test) testtable.getSelectionModel().getSelectedItem();
-        int testid = testtable.getSelectionModel().getSelectedIndex()+1;
-        if(test != null){
-            Parent root = fxmlLoader.load();
-            UpdateTestResultController updateTestResultController = fxmlLoader.getController();
-            updateTestResultController.notestextarea.setText(test.getResultNotes());
-            updateTestResultController.studentchoicebox.setValue(test.getStudentID());
-            updateTestResultController.studentscoretextfield.setText(String.valueOf(test.getStudentScore()));
-            updateTestResultController.testchoicebox.setValue(test.getTestName());
-            updateTestResultController.testdatepicker.setValue(test.getTestDate().toLocalDate());
-            createStage(root, actionEvent);
-
-        }
 
 
-    }
 
     public void ManageTestResultInput(ActionEvent actionEvent) throws IOException
     {
@@ -92,4 +85,26 @@ public class TestListController extends MainController {
     public void createStage(Parent root, ActionEvent actionEvent) {
         super.createStage(root, actionEvent);
     }
-}
+
+    public void updatebuttonpressed(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("UpdateTestResult.fxml"));
+        Test test = (Test) testtable.getSelectionModel().getSelectedItem();
+        int testid = testtable.getSelectionModel().getSelectedIndex() + 1;
+        if (test != null) {
+            Parent root = fxmlLoader.load();
+            UpdateTestResultController updateTestResultController = fxmlLoader.getController();
+            updateTestResultController.notestextarea.setText(test.getResultNotes());
+            updateTestResultController.studentchoicebox.setValue(test.getStudentID());
+            updateTestResultController.studentscoretextfield.setText(String.valueOf(test.getStudentScore()));
+            updateTestResultController.testchoicebox.setValue(test.getTestName());
+            updateTestResultController.testdatepicker.setValue(test.getTestDate().toLocalDate());
+            updateTestResultController.testidtext.setText(String.valueOf(testid));
+            createStage(root,actionEvent);
+
+
+
+        }
+
+    }
+    }
+

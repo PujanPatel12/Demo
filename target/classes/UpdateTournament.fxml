@@ -67,22 +67,22 @@
                      <content>
                         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #247f9e;">
                            <children>
-                              <Text fill="WHITE" layoutX="56.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tournament Name :" wrappingWidth="240.00000482797623">
+                              <Text fill="WHITE" layoutX="57.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tournament Name :" wrappingWidth="281.0000048279762">
                                  <font>
                                     <Font size="26.0" />
                                  </font>
                               </Text>
-                              <Text fill="WHITE" layoutX="56.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tournament Type :" wrappingWidth="224.00000482797623">
+                              <Text fill="WHITE" layoutX="55.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tournament Type :" wrappingWidth="285.0000048279762">
                                  <font>
                                     <Font size="26.0" />
                                  </font>
                               </Text>
-                              <Text fill="WHITE" layoutX="56.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tournament Start Date :" wrappingWidth="283.0000048279762">
+                              <Text fill="WHITE" layoutX="55.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tournament Start Date :" wrappingWidth="313.0000048279762">
                                  <font>
                                     <Font size="26.0" />
                                  </font>
                               </Text>
-                              <Text fill="WHITE" layoutX="56.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tournament End Date :" wrappingWidth="268.0000048279762">
+                              <Text fill="WHITE" layoutX="55.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tournament End Date :" wrappingWidth="328.0000048279762">
                                  <font>
                                     <Font size="26.0" />
                                  </font>
@@ -116,11 +116,6 @@
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Text fill="WHITE" layoutX="56.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tournament ID :" wrappingWidth="240.00000482797623">
-                                 <font>
-                                    <Font size="26.0" />
-                                 </font>
-                              </Text>
                               <Text fx:id="tournamentidtext" fill="WHITE" layoutX="324.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="240.00000482797623">
                                  <font>
                                     <Font size="26.0" />

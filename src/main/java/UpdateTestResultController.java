@@ -2,6 +2,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.control.*;
+import javafx.scene.text.Text;
 
 import java.io.IOException;
 import java.sql.Connection;
@@ -20,7 +21,12 @@ public class UpdateTestResultController extends MainController {
     public TextArea notestextarea;
     public DatePicker testdatepicker;
     public Button UpdateButton;
+    public TextField studentidtextfield;
+    public Text testidtext;
+
+
     public void initialize() throws SQLException {
+
         Connection connection = DBHelper.getINSTANCE().getConnection();
 
         Statement statement = connection.createStatement();
@@ -29,9 +35,9 @@ public class UpdateTestResultController extends MainController {
         String testName;
 
         while(resultSet.next()){
-            testID = resultSet.getInt("testID");
+        //    testID = resultSet.getInt("testID");
             testName = resultSet.getString("testName");
-            testchoicebox.getItems().addAll(testID + "," + testName);
+            testchoicebox.getItems().addAll( testName);
 
         }
         resultSet.close();
@@ -41,26 +47,26 @@ public class UpdateTestResultController extends MainController {
         Statement statement1 = connection.createStatement();
         ResultSet resultSet1 = statement1.executeQuery("SELECT studentID,Stu_firstName,Stu_lastName from Student");
         String studentname;
-        String lastname;
+        String Lastname;
         int id;
 
         while (resultSet1.next()) {
             id = resultSet1.getInt("studentID");
-            studentname = resultSet1.getString("Stu_firstName");
-            lastname = resultSet1.getString("Stu_lastName");
-            //  Studentcombobox.getItems().addAll(id + " | " + lastname + ", " + studentname);
-            studentchoicebox.getItems().addAll(id + " | " + lastname + ", " + studentname);
+
+            studentchoicebox.getItems().addAll(id);
         }
         resultSet1.close();
         statement1.close();
 
 
+
+
+
         connection.close();
     }
 
-    public void UpdateTestResult(ActionEvent actionEvent) throws IOException {
 
-    }
+
 
     public void ManageTestList(ActionEvent actionEvent) throws IOException
     {
@@ -83,4 +89,7 @@ public class UpdateTestResultController extends MainController {
         super.createStage(root, actionEvent);
     }
 
+    public void UpdateTestResult(ActionEvent actionEvent) {
+    }
 }
+

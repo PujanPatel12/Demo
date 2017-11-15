@@ -9,6 +9,8 @@ public class OneStudentPrivateLesson {
     private Date privateLessonDate;
     private String tournamentName;
     private Date tournamentDate;
+    private String tournmentEventName;
+
 
     @Override
     public String toString() {
@@ -21,11 +23,21 @@ public class OneStudentPrivateLesson {
                 ", privateLessonDate=" + privateLessonDate +
                 ", tournamentName='" + tournamentName + '\'' +
                 ", tournamentDate=" + tournamentDate +
+                ", tournmentEventName='" + tournmentEventName + '\'' +
                 ", startDate=" + startDate +
                 ", tournamentEventName='" + tournamentEventName + '\'' +
                 ", eventSize=" + eventSize +
                 ", finalPlacement=" + finalPlacement +
                 '}';
+    }
+
+
+    public String getTournmentEventName() {
+        return tournmentEventName;
+    }
+
+    public void setTournmentEventName(String tournmentEventName) {
+        this.tournmentEventName = tournmentEventName;
     }
 
     public Date getStartDate() {

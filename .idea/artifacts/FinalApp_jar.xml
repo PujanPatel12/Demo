@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FinalApp:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FinalApp_jar</output-path>
+    <root id="archive" name="FinalApp.jar">
+      <element id="module-output" name="FinalApp" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-dbutils/commons-dbutils/1.7/commons-dbutils-1.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/microsoft/sqlserver/mssql-jdbc/6.3.4.jre8-preview/mssql-jdbc-6.3.4.jre8-preview.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

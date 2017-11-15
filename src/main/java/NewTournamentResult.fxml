@@ -18,7 +18,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NewTournamentResultController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NewTournamentResultController">
   <children>
     <MenuBar VBox.vgrow="NEVER">
       <menus>
@@ -72,7 +72,7 @@
                                     <Font size="26.0" />
                                  </font>
                               </Text>
-                              <Text fill="WHITE" layoutX="56.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tournament Event Name:" wrappingWidth="306.0000048279762">
+                              <Text fill="WHITE" layoutX="56.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tournament Event Name:" wrappingWidth="334.0000048279762">
                                  <font>
                                     <Font size="26.0" />
                                  </font>

@@ -33,16 +33,16 @@ public class DBHelper {
         ds = new SQLServerDataSource();
 //test push
 
-        ds.setURL("jdbc:sqlserver://10.211.55.3;databaseName=test2");
-        ds.setDatabaseName("test2");
-        ds.setUser("pujan");
-       ds.setPassword("548817");
-/*
-        ds.setURL("jdbc:sqlserver://172.26.54.39:1433;databaseName=Semifinal2");
-        ds.setDatabaseName("Semifinal2");
+//        ds.setURL("jdbc:sqlserver://10.211.55.3;databaseName=test2");
+//        ds.setDatabaseName("test2");
+//        ds.setUser("pujan");
+//       ds.setPassword("548817");
+
+        ds.setURL("jdbc:sqlserver://172.26.54.39:1433;databaseName=RealFinalFinal");
+        ds.setDatabaseName("RealFinalFinal");
         ds.setUser("ryan");
         ds.setPassword("ryan");
-*/
+
         ds.getConnection();
 
     }

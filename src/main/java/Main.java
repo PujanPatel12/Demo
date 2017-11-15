@@ -26,9 +26,4 @@ public class Main extends Application {
     }
 
 
-    public void NewStudentButtonClicked(ActionEvent actionEvent) throws IOException{
-
-    }
-
-
 }

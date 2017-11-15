@@ -21,6 +21,18 @@ public class ManageTournamentController extends MainController {
         createStage(root4, actionEvent);
     }
 
+    public void ManageNewTournamentResult(ActionEvent actionEvent) throws IOException
+    {
+        Parent root4= FXMLLoader.load(getClass().getResource("NewTournamentResult.fxml"));
+        createStage(root4, actionEvent);
+    }
+
+    public void ManageTournamentResultList(ActionEvent actionEvent) throws IOException
+    {
+        Parent root4= FXMLLoader.load(getClass().getResource("TournamentResultList.fxml"));
+        createStage(root4, actionEvent);
+    }
+
     @Override
     public void goHome(ActionEvent actionEvent) throws IOException {
         super.goHome(actionEvent);

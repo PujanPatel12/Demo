@@ -44,7 +44,7 @@
                   <Image url="file:/C:/Users/Ryan/Documents/CIS%202348/rrfcApplication/Fencers.jpeg" />
                </image>
             </ImageView>
-            <Button layoutX="91.0" layoutY="364.0" mnemonicParsing="false" onAction="#ManageNewTournament" prefHeight="73.0" prefWidth="296.0" style="-fx-background-color: #a8ccdf;" text="Create New Tournament">
+            <Button layoutX="231.0" layoutY="356.0" mnemonicParsing="false" onAction="#ManageNewTournament" prefHeight="73.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Create New Tournament">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
@@ -54,16 +54,18 @@
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-
-            <Button layoutX="454.0" layoutY="364.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="296.0" style="-fx-background-color: #a8ccdf;" text="Tournament List">
-            </Button>
-            <Button layoutX="454.0" layoutY="364.0" mnemonicParsing="false" onAction="#ManageTournamentList" prefHeight="73.0" prefWidth="296.0" style="-fx-background-color: #a8ccdf;" text="Tournament List">
+            <Button layoutX="610.0" layoutY="356.0" mnemonicParsing="false" onAction="#ManageTournamentList" prefHeight="73.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Tournament List">
 
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="821.0" layoutY="364.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="296.0" style="-fx-background-color: #a8ccdf;" text="Tournament Search">
+            <Button layoutX="231.0" layoutY="473.0" mnemonicParsing="false" onAction="#ManageNewTournamentResult" prefHeight="73.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Create Tournament Result">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="610.0" layoutY="473.0" mnemonicParsing="false" onAction="#ManageTournamentResultList" prefHeight="73.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Tournament Result List">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>

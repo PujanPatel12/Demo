@@ -8,6 +8,15 @@ public class OneStudentTournamentResult {
     private String finalPlacement;
 
     private String tournmentEventName;
+    private String tournamentEventName;
+
+    public String getTournamentEventName() {
+        return tournamentEventName;
+    }
+
+    public void setTournamentEventName(String tournamentEventName) {
+        this.tournamentEventName = tournamentEventName;
+    }
 
     @Override
     public String toString() {
@@ -15,11 +24,12 @@ public class OneStudentTournamentResult {
                 "studentID=" + studentID +
                 ", Stu_firstName='" + Stu_firstName + '\'' +
                 ", Stu_lastName='" + Stu_lastName + '\'' +
-                ", eventSize=" + eventSize +  '\'' +
+                ", eventSize=" + eventSize +
                 ", tournamentName='" + tournamentName + '\'' +
                 ", eventRatingName='" + eventRatingName + '\'' +
                 ", finalPlacement='" + finalPlacement + '\'' +
                 ", tournmentEventName='" + tournmentEventName + '\'' +
+                ", tournamentEventName='" + tournamentEventName + '\'' +
                 '}';
     }
 

@@ -10,7 +10,19 @@ public class OneStudentPrivateLesson {
     private String tournamentName;
     private Date tournamentDate;
     private String tournmentEventName;
+    private String tournamentEventName;
+    private Date startDate;
+    private int finalPlacement;
+    private int indicator;
+    private int eventSize;
 
+    public int getEventSize() {
+        return eventSize;
+    }
+
+    public void setEventSize(int eventSize) {
+        this.eventSize = eventSize;
+    }
 
     @Override
     public String toString() {
@@ -24,20 +36,12 @@ public class OneStudentPrivateLesson {
                 ", tournamentName='" + tournamentName + '\'' +
                 ", tournamentDate=" + tournamentDate +
                 ", tournmentEventName='" + tournmentEventName + '\'' +
-                ", startDate=" + startDate +
                 ", tournamentEventName='" + tournamentEventName + '\'' +
-                ", eventSize=" + eventSize +
+                ", startDate=" + startDate +
                 ", finalPlacement=" + finalPlacement +
+                ", indicator=" + indicator +
+                ", eventSize=" + eventSize +
                 '}';
-    }
-
-
-    public String getTournmentEventName() {
-        return tournmentEventName;
-    }
-
-    public void setTournmentEventName(String tournmentEventName) {
-        this.tournmentEventName = tournmentEventName;
     }
 
     public Date getStartDate() {
@@ -48,10 +52,21 @@ public class OneStudentPrivateLesson {
         this.startDate = startDate;
     }
 
-    private Date startDate;
-    private String tournamentEventName;
-    private int eventSize;
-    private int finalPlacement;
+    public int getFinalPlacement() {
+        return finalPlacement;
+    }
+
+    public void setFinalPlacement(int finalPlacement) {
+        this.finalPlacement = finalPlacement;
+    }
+
+    public int getIndicator() {
+        return indicator;
+    }
+
+    public void setIndicator(int indicator) {
+        this.indicator = indicator;
+    }
 
     public int getStudentID() {
         return studentID;
@@ -117,6 +132,14 @@ public class OneStudentPrivateLesson {
         this.tournamentDate = tournamentDate;
     }
 
+    public String getTournmentEventName() {
+        return tournmentEventName;
+    }
+
+    public void setTournmentEventName(String tournmentEventName) {
+        this.tournmentEventName = tournmentEventName;
+    }
+
     public String getTournamentEventName() {
         return tournamentEventName;
     }
@@ -125,20 +148,9 @@ public class OneStudentPrivateLesson {
         this.tournamentEventName = tournamentEventName;
     }
 
-    public int getEventSize() {
-        return eventSize;
-    }
 
-    public void setEventSize(int eventSize) {
-        this.eventSize = eventSize;
-    }
 
-    public int getFinalPlacement() {
-        return finalPlacement;
-    }
 
-    public void setFinalPlacement(int finalPlacement) {
-        this.finalPlacement = finalPlacement;
-    }
+
 
 }

@@ -76,7 +76,7 @@ public class OneStudentPrivatelessonsVsTourneyResultsController extends MainCont
         int studentid = studentidchoicebox.getSelectionModel().getSelectedIndex()+1;
         String studentfn = studentfntextfield.getText();
         String studentln = studentlntextfield.getText();
-        String sql = "select Student.studentID,Stu_firstName,Stu_lastName,tournmentEventName,tournamentName,Tournament.startDate,privateLessonName,privateLessonDate,Event_Result.finalPlacement,Tournament_Event.eventSize FROM STUDENT INNER JOIN Event_Result ON Student.studentID = Event_Result.studentID INNER JOIN Tournament_Event ON Event_Result.tournamentEventID = Tournament_Event.tournamentEventID INNER JOIN  Tournament ON Tournament_Event.tournamentID = Tournament.tournamentID INNER JOIN Private_Lesson ON Student.studentID = Private_Lesson.studentID WHERE Student.studentID="+studentid + " OR Student.Stu_firstName ='"+ studentfn + "'" + "OR Student.Stu_lastName ="+ "'"+studentln+ "'" + "ORDER BY Student.studentID";
+        String sql = "select Student.studentID,Stu_firstName,Stu_lastName,tournamentEventName,tournamentName,Tournament.startDate,privateLessonName,privateLessonDate,Event_Result.finalPlacement,Tournament_Event.eventSize FROM STUDENT INNER JOIN Event_Result ON Student.studentID = Event_Result.studentID INNER JOIN Tournament_Event ON Event_Result.tournamentEventID = Tournament_Event.tournamentEventID INNER JOIN  Tournament ON Tournament_Event.tournamentID = Tournament.tournamentID INNER JOIN Private_Lesson ON Student.studentID = Private_Lesson.studentID WHERE Student.studentID="+studentid + " OR Student.Stu_firstName ='"+ studentfn + "'" + "OR Student.Stu_lastName ="+ "'"+studentln+ "'" + "ORDER BY Student.studentID";
         SQLServerDataSource ds = Datasource.getINSTANCE().datasource();
         QueryRunner queryRunner = new QueryRunner(ds);
         ResultSetHandler<List<OneStudentPrivateLesson>> O = new BeanListHandler<OneStudentPrivateLesson>(OneStudentPrivateLesson.class);
@@ -89,7 +89,7 @@ public class OneStudentPrivatelessonsVsTourneyResultsController extends MainCont
         privatelessondatecol.setCellValueFactory(new PropertyValueFactory<OneStudentPrivateLesson,Date>("privateLessonDate"));
         tournamentdatecol.setCellValueFactory(new PropertyValueFactory<OneStudentPrivateLesson,Date>("startDate"));
         privatelessonnamecol.setCellValueFactory(new PropertyValueFactory<OneStudentPrivateLesson,String>("privateLessonName"));
-        tournamenteventnamecol.setCellValueFactory(new PropertyValueFactory<OneStudentPrivateLesson,String>("tournmentEventName"));
+        tournamenteventnamecol.setCellValueFactory(new PropertyValueFactory<OneStudentPrivateLesson,String>("tournamentEventName"));
         reportlist.setItems(FXCollections.observableArrayList(oneStudentPrivateLessons));
 
 

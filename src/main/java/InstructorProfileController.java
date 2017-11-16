@@ -1,11 +1,7 @@
-import com.microsoft.sqlserver.jdbc.SQLServerDataSource;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
-import javafx.scene.control.Button;
-import javafx.scene.control.ChoiceBox;
-import javafx.scene.control.DatePicker;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 
 import java.io.IOException;
 import java.sql.*;
@@ -86,13 +82,15 @@ public class InstructorProfileController extends MainController {
             preparedStatement.setString(11,phonenumbertextfield.getText());
             preparedStatement.execute();
             preparedStatement.close();
-            connection.close();
-            System.out.println("insert successful");
-        }
-        catch (Error error){
-            System.out.println("Insert unsucessful");
-        }
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle("Added New Instructor");
+            alert.setHeaderText("Added new Instructor");
+            alert.setContentText("Successfully added new Instructor");
+            alert.showAndWait();
 
+
+        }
+        connection.close();
     }
 
 

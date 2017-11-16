@@ -40,6 +40,7 @@ public class StudentListController extends MainController {
     public TableColumn<Student,String> communicationmedium;
     public TableColumn<Student,String> studentnotes;
     public TableColumn<Student,Integer> studentIDcol;
+    public TableColumn<Student,String> citycol;
 
     public void initialize() throws SQLException{
         SQLServerDataSource ds = Datasource.getINSTANCE().datasource();
@@ -56,6 +57,7 @@ public class StudentListController extends MainController {
         communicationmedium.setCellValueFactory(new PropertyValueFactory<Student,String>("communicationType"));
         studentnotes.setCellValueFactory(new PropertyValueFactory<Student,String>("Stu_notes"));
         studentIDcol.setCellValueFactory(new PropertyValueFactory<Student,Integer>("studentID"));
+        citycol.setCellValueFactory(new PropertyValueFactory<Student,String>("Stu_city"));
 
 
         int selection = 0;
@@ -67,7 +69,7 @@ public class StudentListController extends MainController {
 
         ResultSetHandler<List<Student>> S = new BeanListHandler<Student>(Student.class);
 
-        List<Student> students = queryRunner.query("select  DISTINCT  Student.studentID, Stu_firstName,Stu_lastName,Stu_address,Stu_dateOfBirth,Stu_zipcode,stateName,Stu_phoneNumber,Stu_notes,Stu_sex,Country.countryName,Communication_Medium.communicationType ,Student_Status.Stu_StatDescription FROM Student INNER JOIN State_Province ON Student.stateID = State_Province.stateID INNER JOIN   Country on Student.countryID = Country.countryID JOIN Student_Status ON Student.Stu_statusCode = Student_Status.Stu_statusCode INNER JOIN Communication_Medium ON Student.communicationID = Communication_Medium.communicationID ORDER BY Student.studentID;", S);
+        List<Student> students = queryRunner.query("select  DISTINCT  Student.studentID, Stu_firstName,Stu_lastName,Stu_address,Stu_dateOfBirth,Stu_zipcode,stateName,Stu_phoneNumber,Stu_notes,Stu_sex,Country.countryName,Communication_Medium.communicationType ,Student_Status.Stu_StatDescription,Student.Stu_city FROM Student INNER JOIN State_Province ON Student.stateID = State_Province.stateID INNER JOIN   Country on Student.countryID = Country.countryID JOIN Student_Status ON Student.Stu_statusCode = Student_Status.Stu_statusCode INNER JOIN Communication_Medium ON Student.communicationID = Communication_Medium.communicationID ORDER BY Student.studentID;", S);
 
         studenttable.setItems(FXCollections.observableArrayList(students));
 

@@ -32,8 +32,9 @@
                                     <TableColumn fx:id="DOBcol" minWidth="6.0" prefWidth="69.0" text="DOB" />
                                   <TableColumn fx:id="sexcol" prefWidth="36.0" text="Sex" />
                                     <TableColumn fx:id="Addresscol" prefWidth="152.0" text="Address" />
-                                    <TableColumn fx:id="zipcodecol" prefWidth="59.0" text="Zipcode" />
+                                    <TableColumn fx:id="citycol" prefWidth="113.0" text="City" />
                                     <TableColumn fx:id="statecol" prefWidth="60.0" text="State" />
+                                    <TableColumn fx:id="zipcodecol" prefWidth="59.0" text="Zipcode" />
                                     <TableColumn fx:id="weaponcol" prefWidth="60.0" text="Country" />
                                     <TableColumn fx:id="phonenumbercol" prefWidth="98.0" text="Phone Number" />
                                     <TableColumn fx:id="studentstatuscol" prefWidth="53.0" text="Status" />

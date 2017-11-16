@@ -26,17 +26,17 @@
                      <content>
                         <AnchorPane fx:id="studentAddressTextField" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #247f9e;">
                            <children>
-                              <Button fx:id="Save" layoutX="967.0" layoutY="171.0" mnemonicParsing="false" onAction="#savebuttonpressed" prefHeight="59.0" prefWidth="223.0" style="-fx-background-color: #52D017;" text="Save" textFill="#201414">
+                              <Button fx:id="Save" layoutX="967.0" layoutY="141.0" mnemonicParsing="false" onAction="#savebuttonpressed" prefHeight="59.0" prefWidth="223.0" style="-fx-background-color: #52D017;" text="Save" textFill="#201414">
                                  <font>
                                     <Font name="System Bold" size="19.0" />
                                  </font>
                               </Button>
-                              <Text fill="WHITE" layoutX="975.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create New Student" textAlignment="CENTER" wrappingWidth="206.00000751018524">
+                              <Text fill="WHITE" layoutX="975.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create New Student" textAlignment="CENTER" wrappingWidth="206.00000751018524">
                                  <font>
                                     <Font name="System Bold" size="36.0" />
                                  </font>
                               </Text>
-                              <Button layoutX="967.0" layoutY="465.0" mnemonicParsing="false" onAction="#goHome" prefHeight="55.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu" textFill="#201414">
+                              <Button layoutX="967.0" layoutY="429.0" mnemonicParsing="false" onAction="#goHome" prefHeight="55.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu" textFill="#201414">
                                  <font>
                                     <Font name="System Bold" size="19.0" />
                                  </font>
@@ -100,21 +100,29 @@
                               <ChoiceBox fx:id="Countrychoicebox" layoutX="164.0" layoutY="302.0" prefHeight="25.0" prefWidth="328.0" />
                               <TextField fx:id="StudentPhoneNumber" layoutX="211.0" layoutY="345.0" prefHeight="25.0" prefWidth="167.0" />
                               <TextField fx:id="Student_sexTextField" layoutX="164.0" layoutY="121.0" prefHeight="28.0" prefWidth="79.0" />
+<<<<<<< HEAD
                               <TextField fx:id="Student_notesTextField" layoutX="211.0" layoutY="393.0" prefHeight="129.0" prefWidth="497.0" />
+=======
+                              <TextField fx:id="Student_notesTextField" layoutX="211.0" layoutY="388.0" prefHeight="118.0" prefWidth="517.0" />
+>>>>>>> bfabfb7e1c391d667777a52cde0dbb57a9fafc61
                               <ChoiceBox fx:id="StudentStatusChoicebox" layoutX="712.0" layoutY="21.0" prefHeight="25.0" prefWidth="115.0" />
                               <ChoiceBox fx:id="communicationmediumchoicebox" layoutX="712.0" layoutY="55.0" prefHeight="25.0" prefWidth="132.0" />
                               <DatePicker fx:id="dateofbirth" layoutX="165.0" layoutY="88.0" prefHeight="25.0" prefWidth="137.0" />
-                              <Button layoutX="967.0" layoutY="402.0" mnemonicParsing="false" onAction="#goStudentMenu" prefHeight="55.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Student Menu" textFill="#201414">
+                              <Button layoutX="967.0" layoutY="366.0" mnemonicParsing="false" onAction="#goStudentMenu" prefHeight="55.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Student Menu" textFill="#201414">
                                  <font>
                                     <Font name="System Bold" size="19.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="967.0" layoutY="338.0" mnemonicParsing="false" onAction="#ManageStudentList" prefHeight="55.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Student List" textFill="#201414">
+                              <Button layoutX="967.0" layoutY="302.0" mnemonicParsing="false" onAction="#ManageStudentList" prefHeight="55.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Student List" textFill="#201414">
                                  <font>
                                     <Font name="System Bold" size="19.0" />
                                  </font>
                               </Button>
+<<<<<<< HEAD
                               <Text fill="WHITE" layoutX="28.0" layoutY="412.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Notes: " wrappingWidth="148.748046875">
+=======
+                              <Text fill="WHITE" layoutX="32.0" layoutY="401.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Notes: " wrappingWidth="140.748046875">
+>>>>>>> bfabfb7e1c391d667777a52cde0dbb57a9fafc61
                                  <font>
                                     <Font size="20.0" />
                                  </font>

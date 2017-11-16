@@ -9,17 +9,9 @@
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <secret-storage>master_key</secret-storage>
       <user-name>pujan</user-name>
-      <introspection-schemas>test2:dbo</introspection-schemas>
     </data-source>
     <data-source name="RealFinalFInal@172.26.54.39" uuid="ef0cc17a-bbd7-4a41-9b6e-abfea1f2f50a">
-      <database-info product="Microsoft SQL Server" version="12.00.5207" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 6.0 for SQL Server" driver-version="6.0.8112.100">
-        <extra-name-characters>$#@</extra-name-characters>
-        <identifier-quote-string>&quot;</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
-      <secret-storage>master_key</secret-storage>
-      <user-name>ryan</user-name>
-      <introspection-schemas>RealFinalFinal:dbo</introspection-schemas>
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
     </data-source>
   </component>
 </project>

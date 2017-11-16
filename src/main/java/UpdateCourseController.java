@@ -66,7 +66,7 @@ public class UpdateCourseController extends MainController {
         Connection connection = DBHelper.getINSTANCE().getConnection();
         String courses = courseidtextfield.getText();
         int courseid = Integer.parseInt(courses);
-        String sql = "UPDATE Course Set Cour_statusCode =?, courseName =?, courseDescription = ? WHERE courseID= " + courseid;
+        String sql = "UPDATE Course Set Cour_statusCode =?, courseName =?, courseDescription = ? WHERE courseID=" + courseid;
         try(PreparedStatement preparedStatement = connection.prepareStatement(sql)){
             preparedStatement.setInt(1,coursestatus);
             preparedStatement.setString(2,CourseNameTextfield.getText());

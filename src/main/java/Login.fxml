@@ -10,18 +10,18 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #247f9e;" VBox.vgrow="ALWAYS">
          <children>
             <ImageView fitHeight="139.0" fitWidth="672.0" layoutX="610.0" layoutY="-1.0">
                <image>
-                  <Image url="@../../../AppData/Local/Temp/New%20folder/header.jpg" />
+                  <Image url="@file:/C:/Users/Public/Documents/RRFCBanner.jpeg" />
                </image>
             </ImageView>
             <ImageView fitHeight="139.0" fitWidth="931.0">
                <image>
-                  <Image url="@../../../AppData/Local/Temp/New%20folder/header.jpg" />
+                  <Image url="@file:/C:/Users/Public/Documents/RRFCBanner.jpeg" />
                </image>
             </ImageView>
             <Label layoutX="155.0" layoutY="14.0" prefHeight="48.0" prefWidth="697.0" text="Round Rock Fencing Club" textAlignment="JUSTIFY" textFill="#c1e5f1">
@@ -36,7 +36,7 @@
             </Label>
             <ImageView fitHeight="129.0" fitWidth="224.0" layoutX="969.0" layoutY="4.0">
                <image>
-                  <Image url="@../../../AppData/Local/Temp/New%20folder/Capture.JPG" />
+                  <Image url="@file:/C:/Users/Public/Documents/Fencers.jpeg" />
                </image>
             </ImageView>
             <TextField layoutX="479.0" layoutY="383.0" prefHeight="39.0" prefWidth="329.0">

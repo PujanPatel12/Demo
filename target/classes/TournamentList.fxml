@@ -24,7 +24,7 @@
                      <content>
                         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #247f9e;">
                            <children>
-                              <TableView fx:id="Tournament" layoutX="28.0" layoutY="14.0" prefHeight="530.0" prefWidth="850.0">
+                              <TableView fx:id="Tournament" layoutX="28.0" layoutY="14.0" prefHeight="489.0" prefWidth="850.0">
                                  <columns>
                                     <TableColumn fx:id="TournamentName" prefWidth="408.33331298828125" text="Tournament Name" />
                                     <TableColumn fx:id="TournamentType" prefWidth="232.66668701171875" text="Tournament Type" />
@@ -37,32 +37,27 @@
                                     <Font name="System Bold" size="36.0" />
                                  </font>
                               </Text>
-                              <Button fx:id="ImportTournamentButton" layoutX="945.0" layoutY="125.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Import Tournament" textFill="#201414">
+                              <Button fx:id="CreateTournamentButton" layoutX="945.0" layoutY="134.0" mnemonicParsing="false" onAction="#ManageNewTournament" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #52D017;" text="Create Tournament" textFill="#201414">
                                  <font>
                                     <Font name="System Bold" size="19.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="CreateTournamentButton" layoutX="945.0" layoutY="182.0" mnemonicParsing="false" onAction="#ManageNewTournament" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #52D017;" text="Create Tournament" textFill="#201414">
+                              <Button layoutX="945.0" layoutY="455.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu" textFill="#201414">
                                  <font>
                                     <Font name="System Bold" size="19.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="945.0" layoutY="496.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu" textFill="#201414">
+                              <Button fx:id="UpdateTournamentButton" layoutX="945.0" layoutY="189.0" mnemonicParsing="false" onAction="#UpdateTournament" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #ffd700;" text="Update Tournament " textFill="#201414">
                                  <font>
                                     <Font name="System Bold" size="19.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="UpdateTournamentButton" layoutX="945.0" layoutY="237.0" mnemonicParsing="false" onAction="#UpdateTournament" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #ffd700;" text="Update Tournament " textFill="#201414">
+                              <Button fx:id="DeleteTournamentButton" layoutX="945.0" layoutY="244.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #dc143c;" text="Delete Tournament " textFill="#201414">
                                  <font>
                                     <Font name="System Bold" size="19.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="DeleteTournamentButton" layoutX="945.0" layoutY="292.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #dc143c;" text="Delete Tournament " textFill="#201414">
-                                 <font>
-                                    <Font name="System Bold" size="19.0" />
-                                 </font>
-                              </Button>
-                              <Button layoutX="945.0" layoutY="441.0" mnemonicParsing="false" onAction="#goTournamentMenu" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Tournament Menu" textFill="#201414">
+                              <Button layoutX="945.0" layoutY="400.0" mnemonicParsing="false" onAction="#goTournamentMenu" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Tournament Menu" textFill="#201414">
                                  <font>
                                     <Font name="System Bold" size="19.0" />
                                  </font>

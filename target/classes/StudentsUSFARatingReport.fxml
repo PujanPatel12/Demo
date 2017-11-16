@@ -40,17 +40,17 @@
                   <Image url="@../../../../AppData/Local/Temp/New%20folder/Capture.JPG" />
                </image>
             </ImageView>
-            <Button layoutX="994.0" layoutY="664.0" mnemonicParsing="false" onAction="#goHome" prefHeight="56.0" prefWidth="234.0" style="-fx-background-color: white;" text="Main Menu">
+            <Button layoutX="994.0" layoutY="620.0" mnemonicParsing="false" onAction="#goHome" prefHeight="56.0" prefWidth="234.0" style="-fx-background-color: white;" text="Main Menu">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Label layoutX="971.0" layoutY="151.0" prefHeight="228.0" prefWidth="280.0" text="All Student USFA Rankings by Weapon" textAlignment="CENTER" textFill="#fcfcfc" wrapText="true">
+            <Label layoutX="971.0" layoutY="152.0" prefHeight="161.0" prefWidth="280.0" text="All Student USFA Rankings by Weapon" textAlignment="CENTER" textFill="#fcfcfc" wrapText="true">
                <font>
                   <Font name="System Bold" size="36.0" />
                </font>
             </Label>
-            <TableView fx:id="reportlist" layoutX="52.0" layoutY="366.0" prefHeight="354.0" prefWidth="886.0">
+            <TableView fx:id="reportlist" layoutX="52.0" layoutY="347.0" prefHeight="329.0" prefWidth="886.0">
                <columns>
                   <TableColumn fx:id="studentidcol" prefWidth="121.00003051757812" text="Student ID" />
                   <TableColumn fx:id="studentlastnamecol" prefWidth="184.0" text="Student Last Name" />
@@ -59,22 +59,22 @@
                   <TableColumn fx:id="USfarankingcol" prefWidth="213.0" text="USFA Ranking" />
                </columns>
             </TableView>
-            <Button layoutX="994.0" layoutY="592.0" mnemonicParsing="false" onAction="#ManageReports" prefHeight="56.0" prefWidth="234.0" style="-fx-background-color: #a8ccdf;" text="Report Menu">
+            <Button layoutX="994.0" layoutY="548.0" mnemonicParsing="false" onAction="#ManageReports" prefHeight="56.0" prefWidth="234.0" style="-fx-background-color: #a8ccdf;" text="Report Menu">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="392.0" layoutY="280.0" mnemonicParsing="false" onAction="#generatebuttonpressed" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #52D017;" text="Generate">
+            <Button layoutX="392.0" layoutY="256.0" mnemonicParsing="false" onAction="#generatebuttonpressed" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #52D017;" text="Generate">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
             </Button>
-            <Label layoutX="116.0" layoutY="199.0" prefHeight="48.0" prefWidth="141.0" text="Weapon:" textAlignment="CENTER" textFill="WHITE">
+            <Label layoutX="93.0" layoutY="185.0" prefHeight="48.0" prefWidth="141.0" text="Weapon:" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Label>
-            <ChoiceBox fx:id="weaponchoicebox" layoutX="237.0" layoutY="207.0" prefHeight="32.0" prefWidth="141.0" />
+            <ChoiceBox fx:id="weaponchoicebox" layoutX="214.0" layoutY="193.0" prefHeight="32.0" prefWidth="141.0" />
          </children>
     </AnchorPane>
   </children>

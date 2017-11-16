@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="OneStudentClassesVsTestResultsController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="OneStudentClassesVsTestResultsController">
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #247f9e;" VBox.vgrow="ALWAYS">
          <children>
@@ -41,12 +41,12 @@
                   <Image url="@../../../../AppData/Local/Temp/New%20folder/Capture.JPG" />
                </image>
             </ImageView>
-            <Button layoutX="1039.0" layoutY="655.0" mnemonicParsing="false" onAction="#goHome" prefHeight="63.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu">
+            <Button layoutX="1039.0" layoutY="640.0" mnemonicParsing="false" onAction="#goHome" prefHeight="63.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <TableView fx:id="reportlist" layoutX="60.0" layoutY="423.0" prefHeight="295.0" prefWidth="950.0">
+            <TableView fx:id="reportlist" layoutX="60.0" layoutY="371.0" prefHeight="332.0" prefWidth="950.0">
               <columns>
                 <TableColumn fx:id="firstnamecol" prefWidth="113.0" text="Student Last Name" />
                   <TableColumn fx:id="lastnamecol" prefWidth="113.0" text="Student First Name" />
@@ -60,7 +60,7 @@
                   <TableColumn fx:id="highestscorecol" prefWidth="137.0" text="Highest Possible Score" />
               </columns>
             </TableView>
-            <Button layoutX="1039.0" layoutY="575.0" mnemonicParsing="false" onAction="#ManageReports" prefHeight="63.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Report Menu">
+            <Button layoutX="1039.0" layoutY="560.0" mnemonicParsing="false" onAction="#ManageReports" prefHeight="63.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Report Menu">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
@@ -83,7 +83,7 @@
             </Label>
             <TextField fx:id="studentlntextfield" layoutX="337.0" layoutY="254.0" prefHeight="34.0" prefWidth="258.0" />
             <TextField fx:id="studentfntextfield" layoutX="337.0" layoutY="210.0" prefHeight="34.0" prefWidth="258.0" />
-            <Button layoutX="424.0" layoutY="339.0" mnemonicParsing="false" onAction="#generatebuttonpressed" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #52D017;" text="Generate">
+            <Button layoutX="424.0" layoutY="302.0" mnemonicParsing="false" onAction="#generatebuttonpressed" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #52D017;" text="Generate">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>

@@ -24,7 +24,7 @@
                   <content>
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #247f9e;">
                            <children>
-                              <TableView fx:id="ClassList" layoutX="45.0" layoutY="28.0" prefHeight="505.0" prefWidth="893.0">
+                              <TableView fx:id="ClassList" layoutX="48.0" layoutY="28.0" prefHeight="489.0" prefWidth="893.0">
                                 <columns>
                                   <TableColumn fx:id="CourseName" prefWidth="423.00001525878906" text="Course Name" />
                                     <TableColumn fx:id="SectionNumber" prefWidth="145.0" text="Section Number" />
@@ -53,12 +53,12 @@
                                     <Font name="System Bold" size="48.0" />
                                  </font>
                               </Text>
-                              <Button layoutX="973.0" layoutY="485.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu">
+                              <Button layoutX="973.0" layoutY="469.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="973.0" layoutY="426.0" mnemonicParsing="false" onAction="#goClassMenu" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Class Menu">
+                              <Button layoutX="973.0" layoutY="410.0" mnemonicParsing="false" onAction="#goClassMenu" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Class Menu">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>

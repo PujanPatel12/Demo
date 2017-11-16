@@ -49,7 +49,7 @@
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="954.0" layoutY="630.0" mnemonicParsing="false" onAction="#goHome" prefHeight="73.0" prefWidth="221.0" style="-fx-background-color: white;" text="Main Menu">
+            <Button layoutX="960.0" layoutY="589.0" mnemonicParsing="false" onAction="#goHome" prefHeight="73.0" prefWidth="243.0" style="-fx-background-color: white;" text="Main Menu">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
@@ -60,12 +60,12 @@
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="231.0" layoutY="473.0" mnemonicParsing="false" onAction="#ManageNewTournamentResult" prefHeight="73.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Create Tournament Result">
+            <Button layoutX="231.0" layoutY="452.0" mnemonicParsing="false" onAction="#ManageNewTournamentResult" prefHeight="73.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Create Tournament Result">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="610.0" layoutY="473.0" mnemonicParsing="false" onAction="#ManageTournamentResultList" prefHeight="73.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Tournament Result List">
+            <Button layoutX="610.0" layoutY="452.0" mnemonicParsing="false" onAction="#ManageTournamentResultList" prefHeight="73.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Tournament Result List">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>

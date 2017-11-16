@@ -9,11 +9,11 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ManageGuardianController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ManageGuardianController">
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #247f9e;" VBox.vgrow="ALWAYS">
          <children>
-            <Text fill="WHITE" layoutX="377.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage Guardians" textAlignment="CENTER" wrappingWidth="465.803466796875">
+            <Text fill="WHITE" layoutX="386.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage Guardians" textAlignment="CENTER" wrappingWidth="465.803466796875">
                <font>
                   <Font name="System Bold" size="48.0" />
                </font>
@@ -48,12 +48,12 @@
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="994.0" layoutY="632.0" mnemonicParsing="false" onAction="#goHome" prefHeight="73.0" prefWidth="221.0" style="-fx-background-color: white;" text="Main Menu">
+            <Button layoutX="971.0" layoutY="592.0" mnemonicParsing="false" onAction="#goHome" prefHeight="73.0" prefWidth="221.0" style="-fx-background-color: white;" text="Main Menu">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="346.0" layoutY="364.0" mnemonicParsing="false" onAction="#ManageNewGuardian" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="New Guardian">
+            <Button layoutX="334.0" layoutY="364.0" mnemonicParsing="false" onAction="#ManageNewGuardian" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="New Guardian">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>

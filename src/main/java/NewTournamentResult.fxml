@@ -18,7 +18,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NewTournamentResultController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NewTournamentResultController">
   <children>
     <MenuBar VBox.vgrow="NEVER">
       <menus>
@@ -87,27 +87,27 @@
                                     <Font size="26.0" />
                                  </font>
                               </Text>
-                              <Button fx:id="Save" layoutX="892.0" layoutY="185.0" mnemonicParsing="false" onAction="#savebuttonpressed" prefHeight="48.0" prefWidth="249.0" style="-fx-background-color: #52D017;" text="Save">
+                              <Button fx:id="Save" layoutX="893.0" layoutY="149.0" mnemonicParsing="false" onAction="#savebuttonpressed" prefHeight="48.0" prefWidth="249.0" style="-fx-background-color: #52D017;" text="Save">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="tournamentlistbutton" layoutX="895.0" layoutY="345.0" mnemonicParsing="false" onAction="#ManageTournamentResultList" prefHeight="48.0" prefWidth="247.0" style="-fx-background-color: #a8ccdf;" text="Tournament Result List">
+                              <Button fx:id="tournamentlistbutton" layoutX="895.0" layoutY="311.0" mnemonicParsing="false" onAction="#ManageTournamentResultList" prefHeight="48.0" prefWidth="247.0" style="-fx-background-color: #a8ccdf;" text="Tournament Result List">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Text fill="WHITE" layoutX="850.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Tournament Result" textAlignment="CENTER" wrappingWidth="337.13671875">
+                              <Text fill="WHITE" layoutX="850.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Tournament Result" textAlignment="CENTER" wrappingWidth="337.13671875">
                                  <font>
                                     <Font name="System Bold" size="36.0" />
                                  </font>
                               </Text>
-                              <Button fx:id="gohome" layoutX="895.0" layoutY="464.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="248.0" style="-fx-background-color: white;" text="Main Menu">
+                              <Button fx:id="gohome" layoutX="895.0" layoutY="430.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="248.0" style="-fx-background-color: white;" text="Main Menu">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="tournamentlistbutton1" layoutX="895.0" layoutY="405.0" mnemonicParsing="false" onAction="#goTournamentMenu" prefHeight="48.0" prefWidth="248.0" style="-fx-background-color: #a8ccdf;" text="Tournament Menu">
+                              <Button fx:id="tournamentlistbutton1" layoutX="895.0" layoutY="371.0" mnemonicParsing="false" onAction="#goTournamentMenu" prefHeight="48.0" prefWidth="248.0" style="-fx-background-color: #a8ccdf;" text="Tournament Menu">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>

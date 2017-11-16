@@ -13,7 +13,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         primaryStage.setTitle("Round Rock Fencing Club Application");
-        Parent root = FXMLLoader.load(getClass().getResource("Login.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("mainscreen.fxml"));
         primaryStage.setTitle("Round Rock Fencing Club Application");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();

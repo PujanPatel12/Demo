@@ -14,7 +14,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NewIncidentController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NewIncidentController">
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #247f9e;" VBox.vgrow="ALWAYS">
          <children>
@@ -24,22 +24,22 @@
                   <content>
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #247f9e;">
                            <children>
-                              <Button fx:id="savebuttonpressed" layoutX="973.0" layoutY="196.0" mnemonicParsing="false" onAction="#savepressed" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #52D017;" text="Save">
+                              <Button fx:id="savebuttonpressed" layoutX="961.0" layoutY="110.0" mnemonicParsing="false" onAction="#savepressed" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #52D017;" text="Save">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="973.0" layoutY="418.0" mnemonicParsing="false" onAction="#goIncidentMenu" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Incident Menu">
+                              <Button layoutX="961.0" layoutY="363.0" mnemonicParsing="false" onAction="#goIncidentMenu" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Incident Menu">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Text fill="WHITE" layoutX="981.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Incident" textAlignment="CENTER" wrappingWidth="206.13671875">
+                              <Text fill="WHITE" layoutX="949.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Incident" textAlignment="CENTER" wrappingWidth="246.13671875">
                                  <font>
-                                    <Font name="System Bold" size="48.0" />
+                                    <Font name="System Bold" size="36.0" />
                                  </font>
                               </Text>
-                              <Button layoutX="973.0" layoutY="474.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu">
+                              <Button layoutX="961.0" layoutY="419.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
@@ -59,7 +59,7 @@
                                     <Font size="18.0" />
                                  </font>
                               </TextField>
-                              <Button layoutX="973.0" layoutY="362.0" mnemonicParsing="false" onAction="#ManageIncidentList" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Incident List">
+                              <Button layoutX="961.0" layoutY="307.0" mnemonicParsing="false" onAction="#ManageIncidentList" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Incident List">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>

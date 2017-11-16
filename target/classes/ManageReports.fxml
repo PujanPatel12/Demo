@@ -13,7 +13,7 @@
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #247f9e;" VBox.vgrow="ALWAYS">
          <children>
-            <Text fill="WHITE" layoutX="420.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage Reports" wrappingWidth="375.7371826171875">
+            <Text fill="WHITE" layoutX="420.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage Reports" wrappingWidth="375.7371826171875">
                <font>
                   <Font name="System Bold" size="48.0" />
                </font>
@@ -43,52 +43,52 @@
                   <Image url="@../../../AppData/Local/Temp/New%20folder/Capture.JPG" />
                </image>
             </ImageView>
-            <Button layoutX="78.0" layoutY="284.0" mnemonicParsing="false" onAction="#OneStudentGoalReport" prefHeight="85.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Particular Student Goal Report" textAlignment="CENTER" wrapText="true">
+            <Button layoutX="78.0" layoutY="265.0" mnemonicParsing="false" onAction="#OneStudentGoalReport" prefHeight="85.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Particular Student Goal Report" textAlignment="CENTER" wrapText="true">
                <font>
                   <Font name="System Bold" size="19.0" />
                </font>
             </Button>
-            <Button layoutX="921.0" layoutY="634.0" mnemonicParsing="false" onAction="#goHome" prefHeight="73.0" prefWidth="296.0" style="-fx-background-color: white;" text="Main Menu">
+            <Button layoutX="922.0" layoutY="583.0" mnemonicParsing="false" onAction="#goHome" prefHeight="73.0" prefWidth="296.0" style="-fx-background-color: white;" text="Main Menu">
                <font>
                   <Font name="System Bold" size="19.0" />
                </font>
             </Button>
-            <Button layoutX="456.0" layoutY="284.0" mnemonicParsing="false" onAction="#OneStudentTournamentResultsReport" prefHeight="85.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Particular Student Tournament Results" textAlignment="CENTER" wrapText="true">
+            <Button layoutX="456.0" layoutY="265.0" mnemonicParsing="false" onAction="#OneStudentTournamentResultsReport" prefHeight="85.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Particular Student Tournament Results" textAlignment="CENTER" wrapText="true">
                <font>
                   <Font name="System Bold" size="19.0" />
                </font>
             </Button>
-            <Button layoutX="842.0" layoutY="284.0" mnemonicParsing="false" onAction="#OneStudentTestResultsReport" prefHeight="85.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Particular Student Test Results" textAlignment="CENTER" wrapText="true">
+            <Button layoutX="842.0" layoutY="265.0" mnemonicParsing="false" onAction="#OneStudentTestResultsReport" prefHeight="85.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Particular Student Test Results" textAlignment="CENTER" wrapText="true">
                <font>
                   <Font name="System Bold" size="19.0" />
                </font>
             </Button>
-            <Button layoutX="456.0" layoutY="490.0" mnemonicParsing="false" onAction="#OneStudentPrivateLessonsVsTournamentResultsReport" prefHeight="85.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Particular Student Private Lesson vs. Tournament Results" textAlignment="CENTER" wrapText="true">
+            <Button layoutX="456.0" layoutY="466.0" mnemonicParsing="false" onAction="#OneStudentPrivateLessonsVsTournamentResultsReport" prefHeight="85.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Particular Student Private Lesson vs. Tournament Results" textAlignment="CENTER" wrapText="true">
                <font>
                   <Font name="System Bold" size="19.0" />
                </font>
             </Button>
-            <Button layoutX="842.0" layoutY="385.0" mnemonicParsing="false" onAction="#StudentsTestResultsPerWeaponReport" prefHeight="85.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Students Test Results By Weapon" textAlignment="CENTER" wrapText="true">
+            <Button layoutX="842.0" layoutY="365.0" mnemonicParsing="false" onAction="#StudentsTestResultsPerWeaponReport" prefHeight="85.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Students Test Results By Weapon" textAlignment="CENTER" wrapText="true">
                <font>
                   <Font name="System Bold" size="19.0" />
                </font>
             </Button>
-            <Button layoutX="78.0" layoutY="385.0" mnemonicParsing="false" onAction="#StudentRosterReport" prefHeight="85.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Student Roster For a Class" textAlignment="CENTER" wrapText="true">
+            <Button layoutX="78.0" layoutY="365.0" mnemonicParsing="false" onAction="#StudentRosterReport" prefHeight="85.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Student Roster For a Class" textAlignment="CENTER" wrapText="true">
                <font>
                   <Font name="System Bold" size="19.0" />
                </font>
             </Button>
-            <Button layoutX="456.0" layoutY="385.0" mnemonicParsing="false" onAction="#StudentsUSFARatingReport" prefHeight="85.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Students USFA Rating Report" textAlignment="CENTER" wrapText="true">
+            <Button layoutX="458.0" layoutY="365.0" mnemonicParsing="false" onAction="#StudentsUSFARatingReport" prefHeight="85.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Students USFA Rating Report" textAlignment="CENTER" wrapText="true">
                <font>
                   <Font name="System Bold" size="19.0" />
                </font>
             </Button>
-            <Button layoutX="842.0" layoutY="490.0" mnemonicParsing="false" onAction="#OneStudentClassesVsTestResultsReport" prefHeight="85.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Particular Student Classes vs. Test Results" textAlignment="CENTER" wrapText="true">
+            <Button layoutX="842.0" layoutY="466.0" mnemonicParsing="false" onAction="#OneStudentClassesVsTestResultsReport" prefHeight="85.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Particular Student Classes vs. Test Results" textAlignment="CENTER" wrapText="true">
                <font>
                   <Font name="System Bold" size="19.0" />
                </font>
             </Button>
-            <Button layoutX="78.0" layoutY="490.0" mnemonicParsing="false" onAction="#OneStudentPrivateLessonsVsGoalsReport" prefHeight="85.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Particular Student Private Lesson vs. Goals" textAlignment="CENTER" wrapText="true">
+            <Button layoutX="78.0" layoutY="466.0" mnemonicParsing="false" onAction="#OneStudentPrivateLessonsVsGoalsReport" prefHeight="85.0" prefWidth="304.0" style="-fx-background-color: #a8ccdf;" text="Particular Student Private Lesson vs. Goals" textAlignment="CENTER" wrapText="true">
                <font>
                   <Font name="System Bold" size="19.0" />
                </font>

@@ -14,7 +14,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AddStudentToClassController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AddStudentToClassController">
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #247f9e;" VBox.vgrow="ALWAYS">
          <children>
@@ -24,55 +24,55 @@
                   <content>
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #247f9e;">
                            <children>
-                              <Button layoutX="973.0" layoutY="201.0" mnemonicParsing="false" onAction="#savebuttonpressed" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #52D017;" text="Save">
+                              <Button layoutX="973.0" layoutY="184.0" mnemonicParsing="false" onAction="#savebuttonpressed" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #52D017;" text="Save">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="973.0" layoutY="417.0" mnemonicParsing="false" onAction="#goClassMenu" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Class Menu">
+                              <Button layoutX="973.0" layoutY="384.0" mnemonicParsing="false" onAction="#goClassMenu" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Class Menu">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Text fill="WHITE" layoutX="981.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Student to a Class" textAlignment="CENTER" wrappingWidth="206.13671875">
+                              <Text fill="WHITE" layoutX="981.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Student to a Class" textAlignment="CENTER" wrappingWidth="206.13671875">
                                  <font>
                                     <Font name="System Bold" size="36.0" />
                                  </font>
                               </Text>
-                              <Button layoutX="973.0" layoutY="474.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu">
+                              <Button layoutX="973.0" layoutY="441.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Text fill="WHITE" layoutX="70.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Class:" wrappingWidth="206.13671875">
+                              <Text fill="WHITE" layoutX="70.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Class:" wrappingWidth="206.13671875">
                                  <font>
                                     <Font name="System Bold" size="28.0" />
                                  </font>
                               </Text>
-                              <ChoiceBox fx:id="studentnameidchoicebox" layoutX="317.0" layoutY="85.0" prefHeight="32.0" prefWidth="269.0" />
+                              <ChoiceBox fx:id="studentnameidchoicebox" layoutX="317.0" layoutY="85.0" prefHeight="32.0" prefWidth="250.0" />
                               <Text fill="WHITE" layoutX="70.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Name:" wrappingWidth="232.13671875">
                                  <font>
                                     <Font name="System Bold" size="28.0" />
                                  </font>
                               </Text>
-                              <ChoiceBox fx:id="coursechoicebox" layoutX="214.0" layoutY="166.0" prefHeight="33.0" prefWidth="258.0" />
-                              <Button layoutX="973.0" layoutY="360.0" mnemonicParsing="false" onAction="#goStudentRoster" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Class Roster">
+                              <ChoiceBox fx:id="coursechoicebox" layoutX="188.0" layoutY="147.0" prefHeight="33.0" prefWidth="243.0" />
+                              <Button layoutX="973.0" layoutY="327.0" mnemonicParsing="false" onAction="#goStudentRoster" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Class Roster">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Text fill="WHITE" layoutX="70.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date Added:" wrappingWidth="196.80340576171875">
+                              <Text fill="WHITE" layoutX="70.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date Added:" wrappingWidth="196.80340576171875">
                                  <font>
                                     <Font name="System Bold" size="28.0" />
                                  </font>
                               </Text>
-                              <DatePicker fx:id="dateaddeddatepicker" layoutX="276.0" layoutY="232.0" prefHeight="34.0" prefWidth="174.0" />
-                              <Text fill="WHITE" layoutX="78.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Class Roster Status:" wrappingWidth="272.80340576171875">
+                              <DatePicker fx:id="dateaddeddatepicker" layoutX="276.0" layoutY="208.0" prefHeight="34.0" prefWidth="139.0" />
+                              <Text fill="WHITE" layoutX="70.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Class Roster Status:" wrappingWidth="272.80340576171875">
                                  <font>
                                     <Font name="System Bold" size="28.0" />
                                  </font>
                               </Text>
-                              <ChoiceBox fx:id="rosterstatuschoicebox" layoutX="363.0" layoutY="291.0" prefHeight="33.0" prefWidth="258.0" />
+                              <ChoiceBox fx:id="rosterstatuschoicebox" layoutX="370.0" layoutY="276.0" prefHeight="33.0" prefWidth="152.0" />
                            </children>
                         </AnchorPane>
                   </content>

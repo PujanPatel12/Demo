@@ -43,17 +43,17 @@
                   <Image url="file:/C:/Users/Ryan/Documents/CIS%202348/rrfcApplication/Fencers.jpeg" />
                </image>
             </ImageView>
-            <Button layoutX="256.0" layoutY="485.0" mnemonicParsing="false" onAction="#ManageNewIncidentReport" prefHeight="73.0" prefWidth="298.0" style="-fx-background-color: #a8ccdf;" text="New Incident Report">
+            <Button layoutX="256.0" layoutY="450.0" mnemonicParsing="false" onAction="#ManageNewIncidentReport" prefHeight="73.0" prefWidth="298.0" style="-fx-background-color: #a8ccdf;" text="New Incident Report">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="971.0" layoutY="630.0" mnemonicParsing="false" onAction="#goHome" prefHeight="73.0" prefWidth="221.0" style="-fx-background-color: white;" text="Main Menu">
+            <Button layoutX="971.0" layoutY="590.0" mnemonicParsing="false" onAction="#goHome" prefHeight="73.0" prefWidth="221.0" style="-fx-background-color: white;" text="Main Menu">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="648.0" layoutY="485.0" mnemonicParsing="false" onAction="#ManageIncidentReportList" prefHeight="73.0" prefWidth="298.0" style="-fx-background-color: #a8ccdf;" text="Incident Reports">
+            <Button layoutX="648.0" layoutY="450.0" mnemonicParsing="false" onAction="#ManageIncidentReportList" prefHeight="73.0" prefWidth="298.0" style="-fx-background-color: #a8ccdf;" text="Incident Reports">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>

@@ -14,7 +14,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="IncidentListController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="IncidentListController">
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #247f9e;" VBox.vgrow="ALWAYS">
          <children>
@@ -24,38 +24,38 @@
                   <content>
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #247f9e;">
                            <children>
-                              <TableView fx:id="incidentlist" layoutX="45.0" layoutY="28.0" prefHeight="509.0" prefWidth="893.0">
+                              <TableView fx:id="incidentlist" layoutX="45.0" layoutY="28.0" prefHeight="489.0" prefWidth="893.0">
                                 <columns>
                                   <TableColumn fx:id="namecol" prefWidth="302.0" text="Incident Name" />
                                     <TableColumn fx:id="desccol" prefWidth="590.0" text="Incident Description" />
                                 </columns>
                               </TableView>
-                              <Button layoutX="973.0" layoutY="164.0" mnemonicParsing="false" onAction="#ManageNewIncident" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #52D017;" text="Create New Incident">
+                              <Button layoutX="973.0" layoutY="106.0" mnemonicParsing="false" onAction="#ManageNewIncident" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #52D017;" text="Create New Incident">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="973.0" layoutY="223.0" mnemonicParsing="false" onAction="#ManageUpdateIncident" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #ffd700;" text="Update Incident">
+                              <Button layoutX="973.0" layoutY="165.0" mnemonicParsing="false" onAction="#ManageUpdateIncident" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #ffd700;" text="Update Incident">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="973.0" layoutY="283.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #dc143c;" text="Delete Incident">
+                              <Button layoutX="973.0" layoutY="225.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #dc143c;" text="Delete Incident">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Text fill="WHITE" layoutX="981.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Incident List" textAlignment="CENTER" wrappingWidth="206.13671875">
+                              <Text fill="WHITE" layoutX="968.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Incident List" textAlignment="CENTER" wrappingWidth="233.13671875">
                                  <font>
-                                    <Font name="System Bold" size="48.0" />
+                                    <Font name="System Bold" size="36.0" />
                                  </font>
                               </Text>
-                              <Button layoutX="973.0" layoutY="489.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu">
+                              <Button layoutX="973.0" layoutY="469.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="973.0" layoutY="431.0" mnemonicParsing="false" onAction="#goIncidentMenu" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Incident Menu">
+                              <Button layoutX="973.0" layoutY="411.0" mnemonicParsing="false" onAction="#goIncidentMenu" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Incident Menu">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>

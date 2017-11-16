@@ -14,7 +14,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GuardianProfileController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GuardianProfileController">
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #247f9e;" VBox.vgrow="ALWAYS">
          <children>
@@ -24,17 +24,17 @@
                      <content>
                         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #247f9e;">
                            <children>
-                              <Button fx:id="save" layoutX="965.0" layoutY="180.0" mnemonicParsing="false" onAction="#saveButtonPressed" prefHeight="55.0" prefWidth="225.0" style="-fx-background-color: #52D017;" text="Save" textFill="#201414">
+                              <Button fx:id="save" layoutX="965.0" layoutY="145.0" mnemonicParsing="false" onAction="#saveButtonPressed" prefHeight="55.0" prefWidth="225.0" style="-fx-background-color: #52D017;" text="Save" textFill="#201414">
                                  <font>
                                     <Font name="System Bold" size="19.0" />
                                  </font>
                               </Button>
-                              <Text fill="WHITE" layoutX="969.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create New Guardian" textAlignment="CENTER" wrappingWidth="219.84765625">
+                              <Text fill="WHITE" layoutX="969.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create New Guardian" textAlignment="CENTER" wrappingWidth="219.84765625">
                                  <font>
                                     <Font name="System Bold" size="36.0" />
                                  </font>
                               </Text>
-                              <Button layoutX="965.0" layoutY="460.0" mnemonicParsing="false" onAction="#goHome" prefHeight="55.0" prefWidth="225.0" style="-fx-background-color: white;" text="Main Menu" textFill="#201414">
+                              <Button layoutX="965.0" layoutY="430.0" mnemonicParsing="false" onAction="#goHome" prefHeight="55.0" prefWidth="225.0" style="-fx-background-color: white;" text="Main Menu" textFill="#201414">
                                  <font>
                                     <Font name="System Bold" size="19.0" />
                                  </font>
@@ -51,12 +51,12 @@
                               </Text>
                               <ChoiceBox fx:id="statuschoicebox" layoutX="722.0" layoutY="31.0" prefHeight="25.0" prefWidth="146.0" />
                               <ChoiceBox fx:id="relationshipchoicebox" layoutX="722.0" layoutY="70.0" prefHeight="25.0" prefWidth="169.0" />
-                              <Button layoutX="966.0" layoutY="391.0" mnemonicParsing="false" onAction="#goGuardianMenu" prefHeight="55.0" prefWidth="225.0" style="-fx-background-color: #a8ccdf;" text="Guardian Menu" textFill="#201414">
+                              <Button layoutX="966.0" layoutY="361.0" mnemonicParsing="false" onAction="#goGuardianMenu" prefHeight="55.0" prefWidth="225.0" style="-fx-background-color: #a8ccdf;" text="Guardian Menu" textFill="#201414">
                                  <font>
                                     <Font name="System Bold" size="19.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="966.0" layoutY="323.0" mnemonicParsing="false" onAction="#ManageGuardianList" prefHeight="55.0" prefWidth="225.0" style="-fx-background-color: #a8ccdf;" text="Guardian List" textFill="#201414">
+                              <Button layoutX="966.0" layoutY="293.0" mnemonicParsing="false" onAction="#ManageGuardianList" prefHeight="55.0" prefWidth="225.0" style="-fx-background-color: #a8ccdf;" text="Guardian List" textFill="#201414">
                                  <font>
                                     <Font name="System Bold" size="19.0" />
                                  </font>

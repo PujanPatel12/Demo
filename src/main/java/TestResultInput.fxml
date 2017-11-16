@@ -16,7 +16,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TestResultInputContoller">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TestResultInputContoller">
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #247f9e;" VBox.vgrow="ALWAYS">
          <children>
@@ -36,51 +36,51 @@
                                     <Font name="System Bold" size="36.0" />
                                  </font>
                               </Text>
-                              <Button layoutX="965.0" layoutY="489.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu">
+                              <Button layoutX="965.0" layoutY="434.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="965.0" layoutY="434.0" mnemonicParsing="false" onAction="#goTestMenu" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Test Menu">
+                              <Button layoutX="965.0" layoutY="379.0" mnemonicParsing="false" onAction="#goTestMenu" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Test Menu">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="965.0" layoutY="379.0" mnemonicParsing="false" onAction="#ManageTestList" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Test Results List">
+                              <Button layoutX="965.0" layoutY="324.0" mnemonicParsing="false" onAction="#ManageTestList" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Test Results List">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Text fill="WHITE" layoutX="34.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student : " wrappingWidth="344.80340576171875">
+                              <Text fill="WHITE" layoutX="34.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Name: " wrappingWidth="344.80340576171875">
                                  <font>
                                     <Font name="System Bold" size="24.0" />
                                  </font>
                               </Text>
-                              <ChoiceBox fx:id="studentchoicebox" layoutX="149.0" layoutY="40.0" prefHeight="36.0" prefWidth="163.0" />
-                              <Text fill="WHITE" layoutX="34.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Test :" wrappingWidth="83.80340576171875">
+                              <ChoiceBox fx:id="studentchoicebox" layoutX="231.0" layoutY="31.0" prefHeight="31.0" prefWidth="215.0" />
+                              <Text fill="WHITE" layoutX="34.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Test :" wrappingWidth="83.80340576171875">
                                  <font>
                                     <Font name="System Bold" size="24.0" />
                                  </font>
                               </Text>
-                              <ChoiceBox fx:id="testchoicebox" layoutX="149.0" layoutY="90.0" prefHeight="36.0" prefWidth="163.0" />
-                              <Text fill="WHITE" layoutX="37.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Score : " wrappingWidth="224.00000482797623">
+                              <ChoiceBox fx:id="testchoicebox" layoutX="125.0" layoutY="74.0" prefHeight="31.0" prefWidth="174.0" />
+                              <Text fill="WHITE" layoutX="34.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Score : " wrappingWidth="224.00000482797623">
                                  <font>
                                     <Font name="System Bold" size="24.0" />
                                  </font>
                               </Text>
-                              <Text fill="WHITE" layoutX="37.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Notes :" wrappingWidth="121.00000482797623">
+                              <Text fill="WHITE" layoutX="34.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Notes :" wrappingWidth="121.00000482797623">
                                  <font>
                                     <Font name="System Bold" size="24.0" />
                                  </font>
                               </Text>
-                              <TextField fx:id="studentscoretextfield" layoutX="220.0" layoutY="142.0" prefHeight="27.0" prefWidth="100.0" />
-                              <TextArea fx:id="notestextarea" layoutX="120.0" layoutY="230.0" prefHeight="200.0" prefWidth="468.0" />
-                              <Text fill="WHITE" layoutX="39.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Test Date: " wrappingWidth="161.00000482797623">
+                              <TextField fx:id="studentscoretextfield" layoutX="238.0" layoutY="118.0" prefHeight="32.0" prefWidth="100.0" />
+                              <TextArea fx:id="notestextarea" layoutX="145.0" layoutY="203.0" prefHeight="200.0" prefWidth="468.0" />
+                              <Text fill="WHITE" layoutX="34.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Test Date: " wrappingWidth="161.00000482797623">
                                  <font>
                                     <Font name="System Bold" size="24.0" />
                                  </font>
                               </Text>
-                              <DatePicker fx:id="testdatepicker" layoutX="215.0" layoutY="180.0" />
+                              <DatePicker fx:id="testdatepicker" layoutX="180.0" layoutY="159.0" prefHeight="31.0" prefWidth="137.0" />
                            </children>
                         </AnchorPane>
                   </content>

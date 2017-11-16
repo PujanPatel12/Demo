@@ -14,7 +14,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StudentListController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StudentListController">
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #247f9e;" VBox.vgrow="ALWAYS">
          <children>
@@ -24,7 +24,7 @@
                   <content>
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #247f9e;">
                            <children>
-                              <TableView fx:id="studenttable" layoutX="-3.0" layoutY="26.0" prefHeight="507.0" prefWidth="959.0">
+                              <TableView fx:id="studenttable" layoutX="-3.0" layoutY="26.0" prefHeight="490.0" prefWidth="959.0">
                                 <columns>
                                     <TableColumn fx:id="studentIDcol" prefWidth="73.0" text="ID " />
                                   <TableColumn fx:id="lastnamecol" prefWidth="93.0" text="Last Name" />
@@ -62,12 +62,12 @@
                                     <Font name="System Bold" size="36.0" />
                                  </font>
                               </Text>
-                              <Button layoutX="980.0" layoutY="485.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="224.0" style="-fx-background-color: white;" text="Main Menu">
+                              <Button layoutX="980.0" layoutY="468.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="224.0" style="-fx-background-color: white;" text="Main Menu">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="980.0" layoutY="430.0" mnemonicParsing="false" onAction="#goStudentMenu" prefHeight="48.0" prefWidth="224.0" style="-fx-background-color: #a8ccdf;" text="Student Menu">
+                              <Button layoutX="980.0" layoutY="413.0" mnemonicParsing="false" onAction="#goStudentMenu" prefHeight="48.0" prefWidth="224.0" style="-fx-background-color: #a8ccdf;" text="Student Menu">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>

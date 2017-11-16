@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
-<?import javafx.scene.text.*?>
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="InstructorProfileController">
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="InstructorProfileController">
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #247f9e;" VBox.vgrow="ALWAYS">
          <children>
@@ -26,7 +35,7 @@
                                     <Font name="System Bold" size="36.0" />
                                  </font>
                               </Text>
-                              <Button layoutX="934.0" layoutY="477.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu" textFill="#201414">
+                              <Button layoutX="934.0" layoutY="456.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu" textFill="#201414">
                                  <font>
                                     <Font name="System Bold" size="19.0" />
                                  </font>
@@ -91,12 +100,12 @@
                               <ChoiceBox fx:id="statechoicebox" layoutX="217.0" layoutY="223.0" prefHeight="25.0" prefWidth="181.0" />
                               <ChoiceBox fx:id="countrychoicebox" layoutX="215.0" layoutY="255.0" prefHeight="25.0" prefWidth="310.0" />
                               <TextField fx:id="phonenumbertextfield" layoutX="215.0" layoutY="290.0" />
-                              <Button layoutX="934.0" layoutY="420.0" mnemonicParsing="false" onAction="#goInstructorMenu" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Instructor Menu" textFill="#201414">
+                              <Button layoutX="934.0" layoutY="399.0" mnemonicParsing="false" onAction="#goInstructorMenu" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Instructor Menu" textFill="#201414">
                                  <font>
                                     <Font name="System Bold" size="19.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="934.0" layoutY="362.0" mnemonicParsing="false" onAction="#ManageInstructorList" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Instructor List" textFill="#201414">
+                              <Button layoutX="934.0" layoutY="341.0" mnemonicParsing="false" onAction="#ManageInstructorList" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Instructor List" textFill="#201414">
                                  <font>
                                     <Font name="System Bold" size="19.0" />
                                  </font>

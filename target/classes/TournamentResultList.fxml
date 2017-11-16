@@ -14,7 +14,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TournamentResultListController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TournamentResultListController">
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #247f9e;" VBox.vgrow="ALWAYS">
          <children>
@@ -24,7 +24,7 @@
                      <content>
                         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #247f9e;">
                            <children>
-                              <TableView fx:id="TournamentResultList" layoutX="28.0" layoutY="14.0" prefHeight="530.0" prefWidth="850.0">
+                              <TableView fx:id="TournamentResultList" layoutX="28.0" layoutY="14.0" prefHeight="490.0" prefWidth="850.0">
                                  <columns>
                                     <TableColumn fx:id="studentID" prefWidth="65.0" text="Student ID" />
                                     <TableColumn fx:id="studentlastnamecol" prefWidth="111.00003051757812" text="Student Last Name" />
@@ -46,7 +46,7 @@
                                     <Font name="System Bold" size="18.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="936.0" layoutY="496.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="256.0" style="-fx-background-color: white;" text="Main Menu" textFill="#201414">
+                              <Button layoutX="935.0" layoutY="456.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="256.0" style="-fx-background-color: white;" text="Main Menu" textFill="#201414">
                                  <font>
                                     <Font name="System Bold" size="18.0" />
                                  </font>
@@ -61,7 +61,7 @@
                                     <Font name="System Bold" size="18.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="935.0" layoutY="440.0" mnemonicParsing="false" onAction="#goTournamentMenu" prefHeight="48.0" prefWidth="257.0" style="-fx-background-color: #a8ccdf;" text="Tournament Menu" textFill="#201414">
+                              <Button layoutX="934.0" layoutY="400.0" mnemonicParsing="false" onAction="#goTournamentMenu" prefHeight="48.0" prefWidth="257.0" style="-fx-background-color: #a8ccdf;" text="Tournament Menu" textFill="#201414">
                                  <font>
                                     <Font name="System Bold" size="18.0" />
                                  </font>

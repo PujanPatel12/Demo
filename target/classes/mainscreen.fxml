@@ -37,62 +37,57 @@
                   <Image url="file:/C:/Users/Public/Documents/Fencers.jpeg" />
                </image>
             </ImageView>
-            <Button layoutX="98.0" layoutY="252.0" mnemonicParsing="false" onAction="#ManageStudentMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Students">
+            <Button layoutX="138.0" layoutY="250.0" mnemonicParsing="false" onAction="#ManageStudentMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Students">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="452.0" layoutY="338.0" mnemonicParsing="false" onAction="#ManageClassMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Classes">
+            <Button layoutX="478.0" layoutY="337.0" mnemonicParsing="false" onAction="#ManageClassMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Classes">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="452.0" layoutY="252.0" mnemonicParsing="false" onAction="#ManageInstructorMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Instructors">
+            <Button layoutX="478.0" layoutY="252.0" mnemonicParsing="false" onAction="#ManageInstructorMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Instructors">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="452.0" layoutY="518.0" mnemonicParsing="false" onAction="#ManageReports" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Reports">
+            <Button layoutX="478.0" layoutY="517.0" mnemonicParsing="false" onAction="#ManageReports" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Reports">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="803.0" layoutY="252.0" mnemonicParsing="false" onAction="#ManageGuardianMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Guardians">
+            <Button layoutX="814.0" layoutY="251.0" mnemonicParsing="false" onAction="#ManageGuardianMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Guardians">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="98.0" layoutY="338.0" mnemonicParsing="false" onAction="#ManageCourseMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Courses">
+            <Button layoutX="138.0" layoutY="336.0" mnemonicParsing="false" onAction="#ManageCourseMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Courses">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="803.0" layoutY="338.0" mnemonicParsing="false" onAction="#ManageTournamentMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Tournaments">
+            <Button layoutX="814.0" layoutY="337.0" mnemonicParsing="false" onAction="#ManageTournamentMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Tournaments">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Label alignment="CENTER" layoutX="415.0" layoutY="149.0" prefHeight="70.0" prefWidth="338.0" text="Main Menu" textAlignment="CENTER" textFill="WHITE">
+            <Label alignment="CENTER" layoutX="441.0" layoutY="147.0" prefHeight="70.0" prefWidth="338.0" text="Main Menu" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="48.0" />
                </font>
             </Label>
-            <Button layoutX="452.0" layoutY="427.0" mnemonicParsing="false" onAction="#ManageTestMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Tests">
+            <Button layoutX="478.0" layoutY="426.0" mnemonicParsing="false" onAction="#ManageTestMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Tests">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="98.0" layoutY="427.0" mnemonicParsing="false" onAction="#ManageGoalMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Goals">
+            <Button layoutX="138.0" layoutY="425.0" mnemonicParsing="false" onAction="#ManageGoalMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Goals">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="803.0" layoutY="427.0" mnemonicParsing="false" onAction="#ManageIncidentMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Incidents">
-               <font>
-                  <Font name="System Bold" size="22.0" />
-               </font>
-            </Button>
-            <Button layoutX="959.0" layoutY="607.0" mnemonicParsing="false" onAction="#LogOut" prefHeight="70.0" prefWidth="244.0" style="-fx-background-color: white;" text="Log Out">
+            <Button layoutX="814.0" layoutY="426.0" mnemonicParsing="false" onAction="#ManageIncidentMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Incidents">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>

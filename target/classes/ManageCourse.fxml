@@ -13,7 +13,7 @@
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #247f9e;" VBox.vgrow="ALWAYS">
          <children>
-            <Text fill="WHITE" layoutX="399.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage Courses" textAlignment="CENTER" wrappingWidth="422.7371826171875">
+            <Text fill="WHITE" layoutX="399.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage Courses" textAlignment="CENTER" wrappingWidth="422.7371826171875">
                <font>
                   <Font name="System Bold" size="48.0" />
                </font>
@@ -43,17 +43,17 @@
                   <Image url="file:/C:/Users/Ryan/Documents/CIS%202348/rrfcApplication/Fencers.jpeg" />
                </image>
             </ImageView>
-            <Button layoutX="249.0" layoutY="364.0" mnemonicParsing="false" onAction="#ManageNewCourse" prefHeight="73.0" prefWidth="301.0" style="-fx-background-color: #a8ccdf;" text="New Course">
+            <Button layoutX="249.0" layoutY="350.0" mnemonicParsing="false" onAction="#ManageNewCourse" prefHeight="73.0" prefWidth="301.0" style="-fx-background-color: #a8ccdf;" text="New Course">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="915.0" layoutY="637.0" mnemonicParsing="false" onAction="#goHome" prefHeight="73.0" prefWidth="221.0" style="-fx-background-color: white;" text="Main Menu">
+            <Button layoutX="916.0" layoutY="590.0" mnemonicParsing="false" onAction="#goHome" prefHeight="73.0" prefWidth="237.0" style="-fx-background-color: white;" text="Main Menu">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="671.0" layoutY="364.0" mnemonicParsing="false" onAction="#ManageCourseList" prefHeight="73.0" prefWidth="301.0" style="-fx-background-color: #a8ccdf;" text="Course List">
+            <Button layoutX="671.0" layoutY="350.0" mnemonicParsing="false" onAction="#ManageCourseList" prefHeight="73.0" prefWidth="301.0" style="-fx-background-color: #a8ccdf;" text="Course List">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>

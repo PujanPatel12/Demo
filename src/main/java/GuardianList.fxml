@@ -14,7 +14,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GuardianListController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GuardianListController">
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #247f9e;" VBox.vgrow="ALWAYS">
          <children>
@@ -24,7 +24,7 @@
                      <content>
                         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #247f9e;">
                            <children>
-                              <TableView fx:id="guardiantable" layoutX="28.0" layoutY="22.0" prefHeight="513.0" prefWidth="888.0">
+                              <TableView fx:id="guardiantable" layoutX="35.0" layoutY="22.0" prefHeight="490.0" prefWidth="888.0">
                                  <columns>
                                     <TableColumn fx:id="guarlastname" prefWidth="73.0" text="Last Name" />
                                     <TableColumn fx:id="guarfirstname" prefWidth="94.99996948242188" text="First Name" />
@@ -44,7 +44,7 @@
                                     <Font name="System Bold" size="36.0" />
                                  </font>
                               </Text>
-                              <Button layoutX="961.0" layoutY="487.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu" textFill="#201414">
+                              <Button layoutX="961.0" layoutY="464.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu" textFill="#201414">
                                  <font>
                                     <Font name="System Bold" size="19.0" />
                                  </font>
@@ -64,7 +64,7 @@
                                     <Font name="System Bold" size="19.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="961.0" layoutY="429.0" mnemonicParsing="false" onAction="#goGuardianMenu" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Guardian Menu" textFill="#201414">
+                              <Button layoutX="961.0" layoutY="406.0" mnemonicParsing="false" onAction="#goGuardianMenu" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Guardian Menu" textFill="#201414">
                                  <font>
                                     <Font name="System Bold" size="19.0" />
                                  </font>

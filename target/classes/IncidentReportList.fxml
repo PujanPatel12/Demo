@@ -14,7 +14,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="IncidentReportListController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="IncidentReportListController">
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #247f9e;" VBox.vgrow="ALWAYS">
          <children>
@@ -24,42 +24,42 @@
                   <content>
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #247f9e;">
                            <children>
-                              <TableView fx:id="incidentlist" layoutX="28.0" layoutY="28.0" prefHeight="510.0" prefWidth="910.0">
+                              <TableView fx:id="incidentlist" layoutX="28.0" layoutY="28.0" prefHeight="490.0" prefWidth="910.0">
                                 <columns>
                                   <TableColumn fx:id="studentidcol" prefWidth="94.0" text="Student ID" />
                                     <TableColumn fx:id="studentlastnamecol" prefWidth="156.0" text="Student Last Name" />
                                     <TableColumn fx:id="studentfirstnamecol" prefWidth="155.0" text="Student First Name" />
                                     <TableColumn fx:id="incidentnamecol" prefWidth="216.0" text="Incident Name" />
                                     <TableColumn fx:id="incidentdatecol" prefWidth="117.0" text="Incident Date" />
-                                    <TableColumn fx:id="incidentdescriptioncol" prefWidth="154.0" text="Incident Description" />
+                                    <TableColumn fx:id="incidentdescriptioncol" prefWidth="171.0" text="Incident Description" />
                                 </columns>
                               </TableView>
-                              <Button layoutX="959.0" layoutY="161.0" mnemonicParsing="false" onAction="#ManageNewIncidentReport" prefHeight="48.0" prefWidth="249.0" style="-fx-background-color: #52D017;" text="Create Incident Report" textAlignment="CENTER" wrapText="true">
+                              <Button layoutX="960.0" layoutY="140.0" mnemonicParsing="false" onAction="#ManageNewIncidentReport" prefHeight="48.0" prefWidth="249.0" style="-fx-background-color: #52D017;" text="Create Incident Report" textAlignment="CENTER" wrapText="true">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="960.0" layoutY="220.0" mnemonicParsing="false" onAction="#ManageUpdateIncidentReport" prefHeight="48.0" prefWidth="249.0" style="-fx-background-color: #ffd700;" text="Update Incident Report" textAlignment="CENTER" wrapText="true">
+                              <Button layoutX="961.0" layoutY="199.0" mnemonicParsing="false" onAction="#ManageUpdateIncidentReport" prefHeight="48.0" prefWidth="249.0" style="-fx-background-color: #ffd700;" text="Update Incident Report" textAlignment="CENTER" wrapText="true">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="959.0" layoutY="279.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="251.0" style="-fx-background-color: #dc143c;" text="Delete Incident Report">
+                              <Button layoutX="960.0" layoutY="258.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="251.0" style="-fx-background-color: #dc143c;" text="Delete Incident Report">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Text fill="WHITE" layoutX="982.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Incident Report List" textAlignment="CENTER" wrappingWidth="206.13671875">
+                              <Text fill="WHITE" layoutX="982.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Incident Report List" textAlignment="CENTER" wrappingWidth="206.13671875">
                                  <font>
                                     <Font name="System Bold" size="36.0" />
                                  </font>
                               </Text>
-                              <Button layoutX="961.0" layoutY="490.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="249.0" style="-fx-background-color: white;" text="Main Menu">
+                              <Button layoutX="961.0" layoutY="470.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="249.0" style="-fx-background-color: white;" text="Main Menu">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="960.0" layoutY="432.0" mnemonicParsing="false" onAction="#goIncidentMenu" prefHeight="48.0" prefWidth="250.0" style="-fx-background-color: #a8ccdf;" text="Incident Menu">
+                              <Button layoutX="960.0" layoutY="412.0" mnemonicParsing="false" onAction="#goIncidentMenu" prefHeight="48.0" prefWidth="250.0" style="-fx-background-color: #a8ccdf;" text="Incident Menu">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>

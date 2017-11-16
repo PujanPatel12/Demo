@@ -48,7 +48,7 @@
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="971.0" layoutY="639.0" mnemonicParsing="false" onAction="#goHome" prefHeight="73.0" prefWidth="221.0" style="-fx-background-color: white;" text="Main Menu">
+            <Button layoutX="971.0" layoutY="590.0" mnemonicParsing="false" onAction="#goHome" prefHeight="73.0" prefWidth="221.0" style="-fx-background-color: white;" text="Main Menu">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>

@@ -24,17 +24,17 @@
                   <content>
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #247f9e;">
                            <children>
-                              <Button fx:id="Save" layoutX="973.0" layoutY="203.0" mnemonicParsing="false" onAction="#save_Button_Pressed" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #52D017;" text="Save">
+                              <Button fx:id="Save" layoutX="973.0" layoutY="183.0" mnemonicParsing="false" onAction="#save_Button_Pressed" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #52D017;" text="Save">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Text fill="WHITE" layoutX="981.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Course" textAlignment="CENTER" wrappingWidth="206.13671875">
+                              <Text fill="WHITE" layoutX="981.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Course" textAlignment="CENTER" wrappingWidth="206.13671875">
                                  <font>
                                     <Font name="System Bold" size="48.0" />
                                  </font>
                               </Text>
-                              <Button layoutX="973.0" layoutY="470.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu">
+                              <Button layoutX="973.0" layoutY="432.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
@@ -65,12 +65,12 @@
                                     <Font name="System Bold" size="30.0" />
                                  </font>
                               </Text>
-                              <Button layoutX="973.0" layoutY="410.0" mnemonicParsing="false" onAction="#goCourseMenu" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Course Menu">
+                              <Button layoutX="973.0" layoutY="372.0" mnemonicParsing="false" onAction="#goCourseMenu" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Course Menu">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="973.0" layoutY="350.0" mnemonicParsing="false" onAction="#ManageCourseList" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Course List">
+                              <Button layoutX="973.0" layoutY="312.0" mnemonicParsing="false" onAction="#ManageCourseList" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Course List">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>

@@ -25,22 +25,22 @@
                   <content>
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #247f9e;">
                            <children>
-                              <Button fx:id="SaveButton" layoutX="973.0" layoutY="193.0" mnemonicParsing="false" onAction="#SaveButtonPressed" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #52D017;" text="Save">
+                              <Button fx:id="SaveButton" layoutX="973.0" layoutY="145.0" mnemonicParsing="false" onAction="#SaveButtonPressed" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #52D017;" text="Save">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="973.0" layoutY="432.0" mnemonicParsing="false" onAction="#goClassMenu" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Class Menu">
+                              <Button layoutX="973.0" layoutY="379.0" mnemonicParsing="false" onAction="#goClassMenu" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Class Menu">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </Button>
-                              <Text fill="WHITE" layoutX="989.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Class" textAlignment="CENTER" wrappingWidth="206.13671875">
+                              <Text fill="WHITE" layoutX="981.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Class" textAlignment="CENTER" wrappingWidth="206.13671875">
                                  <font>
-                                    <Font name="System Bold" size="48.0" />
+                                    <Font name="System Bold" size="36.0" />
                                  </font>
                               </Text>
-                              <Button layoutX="973.0" layoutY="490.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu">
+                              <Button layoutX="973.0" layoutY="437.0" mnemonicParsing="false" onAction="#goHome" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: white;" text="Main Menu">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
@@ -79,7 +79,7 @@
                               <ChoiceBox fx:id="Class_Status" layoutX="313.0" layoutY="181.0" prefHeight="36.0" prefWidth="197.0" />
                               <DatePicker fx:id="startDatePicker" layoutX="313.0" layoutY="246.0" prefHeight="33.0" prefWidth="167.0" />
                               <DatePicker fx:id="EnddatePicker" layoutX="313.0" layoutY="321.0" prefHeight="36.0" prefWidth="167.0" />
-                              <Button layoutX="973.0" layoutY="374.0" mnemonicParsing="false" onAction="#ManageClassList" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Class List">
+                              <Button layoutX="973.0" layoutY="321.0" mnemonicParsing="false" onAction="#ManageClassList" prefHeight="48.0" prefWidth="223.0" style="-fx-background-color: #a8ccdf;" text="Class List">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>

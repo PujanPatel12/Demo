@@ -32,7 +32,6 @@
                                     <TableColumn fx:id="firstnamecol" minWidth="0.0" prefWidth="133.0" text="Student First Name" />
                                     <TableColumn fx:id="lastnamecol" minWidth="0.0" prefWidth="129.0" text="Student Last Name" />
                                     <TableColumn fx:id="testDatecol" minWidth="0.0" prefWidth="84.0" text="Test Date" />
-                                    <TableColumn fx:id="weaponnamecol" minWidth="0.33331298828125" prefWidth="113.0" text="Weapon Name" />
                                     <TableColumn fx:id="studentscore" minWidth="6.0" prefWidth="87.0" text="Student Score" />
                                     <TableColumn fx:id="highestscorecol" minWidth="6.0" prefWidth="87.0" text="Highest Score" />
                                     <TableColumn fx:id="testnotescol" minWidth="6.0" prefWidth="87.0" text="Notes" />

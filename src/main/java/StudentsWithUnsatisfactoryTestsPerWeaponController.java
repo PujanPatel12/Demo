@@ -71,11 +71,11 @@ public class StudentsWithUnsatisfactoryTestsPerWeaponController extends MainCont
         int weaponid = weaponChoicebox.getSelectionModel().getSelectedIndex()+1;
         int studentScore = Integer.parseInt(studentscoretextfield.getText());
         SQLServerDataSource ds = Datasource.getINSTANCE().datasource();
-        String sql ="SELECT Test.weaponID,weaponName,Stu_firstName,Stu_lastName,studentScore,highestTestScore,testName,testDate FROM Student INNER JOIN Test_Result ON Student.studentID = Test_Result.studentID INNER JOIN  TEST ON Test_Result.testID = Test.testID  INNER JOIN  Weapon on Test.weaponID = Weapon.weaponID WHERE Test.weaponID =" +weaponid + "and   Test_Result.studentScore =" + studentScore;
+        String sql ="SELECT Test.weaponID,weaponName,Stu_firstName,Stu_lastName,studentScore,highestTestScore,testName,testDate FROM Student INNER JOIN Test_Result ON Student.studentID = Test_Result.studentID INNER JOIN  TEST ON Test_Result.testID = Test.testID  INNER JOIN  Weapon on Test.weaponID = Weapon.weaponID WHERE Test.weaponID =" +weaponid + "and   Test_Result.studentScore <" + studentScore;
         QueryRunner queryRunner = new QueryRunner(ds);
         studentfirstnamecol.setCellValueFactory(new PropertyValueFactory<StudentWithUnsatifiactoryTestPerWeapon,String>("Stu_firstName"));
         studentlastnamecol.setCellValueFactory(new PropertyValueFactory<StudentWithUnsatifiactoryTestPerWeapon,String>("Stu_lastName"));
-        testnamecol.setCellValueFactory(new PropertyValueFactory<StudentWithUnsatifiactoryTestPerWeapon,String>("testName"));
+//        testnamecol.setCellValueFactory(new PropertyValueFactory<StudentWithUnsatifiactoryTestPerWeapon,String>("testName"));
         studentscorecol.setCellValueFactory(new PropertyValueFactory<StudentWithUnsatifiactoryTestPerWeapon,Integer>("studentScore"));
         highestposscorecol.setCellValueFactory(new PropertyValueFactory<StudentWithUnsatifiactoryTestPerWeapon,Integer>("highestTestScore"));
         testdatecol.setCellValueFactory(new PropertyValueFactory<StudentWithUnsatifiactoryTestPerWeapon,Date>("testDate"));

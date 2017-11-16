@@ -48,12 +48,11 @@
             </Button>
             <TableView fx:id="reportlist" layoutX="60.0" layoutY="385.0" prefHeight="333.0" prefWidth="950.0">
               <columns>
-                <TableColumn fx:id="studentlastnamecol" prefWidth="129.0" text="Student Last Name" />
-                  <TableColumn fx:id="studentfirstnamecol" prefWidth="147.0" text="Student First Name" />
-                  <TableColumn fx:id="testnamecol" prefWidth="234.0" text="Test Name" />
-                  <TableColumn fx:id="testdatecol" prefWidth="138.0" text="Test Date" />
-                  <TableColumn fx:id="studentscorecol" prefWidth="129.0" text="Student Score" />
-                  <TableColumn fx:id="highestposscorecol" prefWidth="173.0" text="Highest Possible Score" />
+                <TableColumn fx:id="studentlastnamecol" prefWidth="254.99998474121094" text="Student Last Name" />
+                  <TableColumn fx:id="studentfirstnamecol" prefWidth="198.0" text="Student First Name" />
+                  <TableColumn fx:id="testdatecol" prefWidth="79.0" text="Test Date" />
+                  <TableColumn fx:id="studentscorecol" prefWidth="222.0" text="Student Score" />
+                  <TableColumn fx:id="highestposscorecol" prefWidth="195.0" text="Highest Possible Score" />
               </columns>
             </TableView>
             <Label layoutX="1020.0" layoutY="155.0" prefHeight="167.0" prefWidth="242.0" text="Students Test Results By Weapon" textAlignment="CENTER" textFill="#fcfcfc" wrapText="true">

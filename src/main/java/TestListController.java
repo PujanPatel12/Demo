@@ -40,7 +40,7 @@ public class TestListController extends MainController {
         testIDcol.setCellValueFactory(new PropertyValueFactory<Test,Integer>("testID"));
         testnameCol.setCellValueFactory(new PropertyValueFactory<Test,String>("testName"));
         testDatecol.setCellValueFactory(new PropertyValueFactory<Test,Date>("testDate"));
-        weaponnamecol.setCellValueFactory(new PropertyValueFactory<Test,String>("weaponName"));
+  //      weaponnamecol.setCellValueFactory(new PropertyValueFactory<Test,String>("weaponName"));
 //        testDescription.setCellValueFactory(new PropertyValueFactory<Test,String>("testDescription"));
         highestscorecol.setCellValueFactory(new PropertyValueFactory<Test,Integer>("highestTestScore"));
         studentidcol.setCellValueFactory(new PropertyValueFactory<Test,Integer>("studentID"));

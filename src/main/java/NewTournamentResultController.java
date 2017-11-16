@@ -30,13 +30,13 @@ public class NewTournamentResultController extends MainController {
     private void tournamenteventname() throws SQLException {
         Connection connection = DBHelper.getINSTANCE().getConnection();
         Statement statement1 = connection.createStatement();
-        ResultSet resultSet1 = statement1.executeQuery("SELECT DISTINCT tournamentEventID,tournmentEventName from Tournament_Event");
+        ResultSet resultSet1 = statement1.executeQuery("SELECT DISTINCT tournamentEventID,tournamentEventName from Tournament_Event");
         int id;
         String name;
 
         while (resultSet1.next()) {
             id = resultSet1.getInt("tournamentEventID");
-            name = resultSet1.getString("tournmentEventName");
+            name = resultSet1.getString("tournamentEventName");
             tournamenteventnamechoicebox.getItems().addAll(id + " | " + name);
         }
         resultSet1.close();

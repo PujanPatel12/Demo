@@ -15,6 +15,36 @@ public class TournamentResult {
     private String Stu_firstName;
     private int eventSize;
     private String tournmentEventName;
+    private String tournamentEventName;
+
+    public String getTournamentEventName() {
+        return tournamentEventName;
+    }
+
+    public void setTournamentEventName(String tournamentEventName) {
+        this.tournamentEventName = tournamentEventName;
+    }
+
+    @Override
+    public String toString() {
+        return "TournamentResult{" +
+                "eventResultID=" + eventResultID +
+                ", studentID=" + studentID +
+                ", tournamentEventID=" + tournamentEventID +
+                ", indicator=" + indicator +
+                ", finalPlacement=" + finalPlacement +
+                ", tournamentID=" + tournamentID +
+                ", tournamentName='" + tournamentName + '\'' +
+                ", startDate=" + startDate +
+                ", endDate=" + endDate +
+                ", tournamentType='" + tournamentType + '\'' +
+                ", Stu_lastName='" + Stu_lastName + '\'' +
+                ", Stu_firstName='" + Stu_firstName + '\'' +
+                ", eventSize=" + eventSize +
+                ", tournmentEventName='" + tournmentEventName + '\'' +
+                ", tournamentEventName='" + tournamentEventName + '\'' +
+                '}';
+    }
 
     public int getEventResultID() {
         return eventResultID;
@@ -128,23 +158,4 @@ public class TournamentResult {
         this.tournmentEventName = tournmentEventName;
     }
 
-    @Override
-    public String toString() {
-        return "TournamentResult{" +
-                "eventResultID=" + eventResultID +
-                ", studentID=" + studentID +
-                ", tournamentEventID=" + tournamentEventID +
-                ", indicator=" + indicator +
-                ", finalPlacement=" + finalPlacement +
-                ", tournamentID=" + tournamentID +
-                ", tournamentName='" + tournamentName + '\'' +
-                ", startDate=" + startDate +
-                ", endDate=" + endDate +
-                ", tournamentType='" + tournamentType + '\'' +
-                ", Stu_lastName='" + Stu_lastName + '\'' +
-                ", Stu_firstName='" + Stu_firstName + '\'' +
-                ", eventSize=" + eventSize +
-                ", tournmentEventName='" + tournmentEventName + '\'' +
-                '}';
-    }
 }

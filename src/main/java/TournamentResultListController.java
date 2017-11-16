@@ -39,11 +39,11 @@ public class TournamentResultListController extends MainController {
         studentfirstnamecol.setCellValueFactory(new PropertyValueFactory<TournamentResult,String>("Stu_firstName"));
         studentlastnamecol.setCellValueFactory(new PropertyValueFactory<TournamentResult,String>("Stu_lastName"));
         tournamentnamecol.setCellValueFactory(new PropertyValueFactory<TournamentResult,String>("tournamentName"));
-        tournamenteventname.setCellValueFactory(new PropertyValueFactory<TournamentResult,String>("tournmentEventName"));
+        tournamenteventname.setCellValueFactory(new PropertyValueFactory<TournamentResult,String>("tournamentEventName"));
         incidatorcol.setCellValueFactory(new PropertyValueFactory<TournamentResult,Integer>("indicator"));
         finalplacementcol.setCellValueFactory(new PropertyValueFactory<TournamentResult,Integer>("finalPlacement"));
         eventsizecol.setCellValueFactory(new PropertyValueFactory<TournamentResult,Integer>("eventSize"));
-        String sql ="select Event_Result.eventResultID, Student.studentID,Stu_firstName,Stu_lastName,tournamentName,tournmentEventName,Event_Result.indicator,Event_Result.finalPlacement,Tournament_Event.eventSize from Student INNER JOIN Event_Result on Student.studentID = Event_Result.studentID INNER JOIN Tournament_Event on Event_Result.tournamentEventID = Tournament_Event.tournamentEventID INNER JOIN Tournament on Tournament_Event.tournamentID = Tournament.tournamentID";
+        String sql ="select Event_Result.eventResultID, Student.studentID,Stu_firstName,Stu_lastName,tournamentName,Event_Result.indicator,Event_Result.finalPlacement,Tournament_Event.eventSize,tournamentEventName from Student INNER JOIN Event_Result on Student.studentID = Event_Result.studentID INNER JOIN Tournament_Event on Event_Result.tournamentEventID = Tournament_Event.tournamentEventID INNER JOIN Tournament on Tournament_Event.tournamentID = Tournament.tournamentID";
 
         ResultSetHandler<List<TournamentResult>> T = new BeanListHandler<TournamentResult>(TournamentResult.class);
         List<TournamentResult> tournamentResultList = queryRunner.query(sql,T);
@@ -70,7 +70,7 @@ public class TournamentResultListController extends MainController {
             UpdateTournamentResultController tournamentResultController = fxmlLoader.getController();
 
             tournamentResultController.studentchoicebox.setValue(tournamentResult.getStudentID());
-            tournamentResultController.eventnamechoicebox.setValue(tournamentResult.getTournmentEventName());
+            tournamentResultController.eventnamechoicebox.setValue(tournamentResult.getTournamentEventName());
             tournamentResultController.finalplacementtextfield.setText(String.valueOf(tournamentResult.getFinalPlacement()));
             tournamentResultController.indicatortextfield.setText(String.valueOf(tournamentResult.getIndicator()));
             tournamentResultController.idtext.setText(String.valueOf(trid));

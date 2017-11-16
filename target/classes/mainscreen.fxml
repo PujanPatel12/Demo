@@ -14,12 +14,12 @@
          <children>
             <ImageView fitHeight="139.0" fitWidth="672.0" layoutX="610.0" layoutY="-1.0">
                <image>
-                  <Image url="file:/C:/Users/Ryan/Documents/CIS%202348/rrfcApplication/RRFCBanner.jpeg" />
+                  <Image url="file:/C:/Users/Public/Documents/RRFCBanner.jpeg" />
                </image>
             </ImageView>
             <ImageView fitHeight="139.0" fitWidth="931.0">
                <image>
-                  <Image url="file:/C:/Users/Ryan/Documents/CIS%202348/rrfcApplication/RRFCBanner.jpeg" />
+                  <Image url="file:/C:/Users/Public/Documents/RRFCBanner.jpeg" />
                </image>
             </ImageView>
             <Label layoutX="155.0" layoutY="14.0" prefHeight="48.0" prefWidth="697.0" text="Round Rock Fencing Club" textAlignment="JUSTIFY" textFill="#c1e5f1">
@@ -32,9 +32,9 @@
                   <Font name="System Bold" size="24.0" />
                </font>
             </Label>
-            <ImageView fitHeight="129.0" fitWidth="224.0" layoutX="969.0" layoutY="4.0">
+            <ImageView fitHeight="129.0" fitWidth="224.0" layoutX="969.0" layoutY="5.0">
                <image>
-                  <Image url="file:/C:/Users/Ryan/Documents/CIS%202348/rrfcApplication/Fencers.jpeg" />
+                  <Image url="file:/C:/Users/Public/Documents/Fencers.jpeg" />
                </image>
             </ImageView>
             <Button layoutX="98.0" layoutY="252.0" mnemonicParsing="false" onAction="#ManageStudentMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Students">
@@ -42,7 +42,7 @@
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="452.0" layoutY="360.0" mnemonicParsing="false" onAction="#ManageClassMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Classes">
+            <Button layoutX="452.0" layoutY="338.0" mnemonicParsing="false" onAction="#ManageClassMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Classes">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
@@ -52,7 +52,7 @@
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="452.0" layoutY="570.0" mnemonicParsing="false" onAction="#ManageReports" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Reports">
+            <Button layoutX="452.0" layoutY="518.0" mnemonicParsing="false" onAction="#ManageReports" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Reports">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
@@ -62,12 +62,12 @@
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="98.0" layoutY="360.0" mnemonicParsing="false" onAction="#ManageCourseMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Courses">
+            <Button layoutX="98.0" layoutY="338.0" mnemonicParsing="false" onAction="#ManageCourseMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Courses">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="803.0" layoutY="360.0" mnemonicParsing="false" onAction="#ManageTournamentMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Tournaments">
+            <Button layoutX="803.0" layoutY="338.0" mnemonicParsing="false" onAction="#ManageTournamentMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Tournaments">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
@@ -77,22 +77,22 @@
                   <Font name="System Bold" size="48.0" />
                </font>
             </Label>
-            <Button layoutX="452.0" layoutY="463.0" mnemonicParsing="false" onAction="#ManageTestMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Tests">
+            <Button layoutX="452.0" layoutY="427.0" mnemonicParsing="false" onAction="#ManageTestMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Tests">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="98.0" layoutY="463.0" mnemonicParsing="false" onAction="#ManageGoalMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Goals">
+            <Button layoutX="98.0" layoutY="427.0" mnemonicParsing="false" onAction="#ManageGoalMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Goals">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="803.0" layoutY="463.0" mnemonicParsing="false" onAction="#ManageIncidentMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Incidents">
+            <Button layoutX="803.0" layoutY="427.0" mnemonicParsing="false" onAction="#ManageIncidentMenu" prefHeight="73.0" prefWidth="264.0" style="-fx-background-color: #a8ccdf;" text="Manage Incidents">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="959.0" layoutY="643.0" mnemonicParsing="false" onAction="#LogOut" prefHeight="70.0" prefWidth="244.0" style="-fx-background-color: white;" text="Log Out">
+            <Button layoutX="959.0" layoutY="607.0" mnemonicParsing="false" onAction="#LogOut" prefHeight="70.0" prefWidth="244.0" style="-fx-background-color: white;" text="Log Out">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
